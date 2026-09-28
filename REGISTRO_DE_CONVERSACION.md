@@ -43,3 +43,11 @@ Este archivo es un resumen de traspaso preparado a petición del usuario. No es 
 - El usuario desea que el equipo tenga acceso al espacio de trabajo y a conversaciones de apoyo. GitHub puede alojar archivos, pero no comparte automáticamente un chat de ChatGPT. El proyecto de ChatGPT `0616 - Projecte Intermodular 1` sigue mostrando solo a su propietario; no se han invitado miembros ni compartido este hilo.
 - La tarea `🎛️0.6 Github (Visual Studio Code)` dice que se trabaje desde VS Code, complete el ciclo de ramas en los repositorios de ambos compañeros, intercambie roles y entregue dos capturas del historial de ramas. El primer vídeo enseña interfaz gráfica; el segundo usa la terminal integrada para configurar `user.name` y `user.email`, y luego muestra publicar, confirmar, sincronizar y clonar mediante la interfaz. Ninguno demuestra por completo la secuencia de merge y borrado de ramas de la tarea.
 - El registro actualizado se ha publicado en el repositorio privado el 28/09/2026. Contiene un resumen, no una exportación literal. El hilo de ChatGPT sigue privado y no se ha compartido. Se enviaron invitaciones de acceso a `2exan` y `Miguel-Gil-Moral`; GitHub las muestra pendientes de aceptación, así que aún no tienen acceso efectivo.
+
+## Reanudar el trabajo en Codex desde otro PC
+
+1. Inicia sesión en Codex y GitHub con la cuenta que tiene acceso al repositorio. Si las invitaciones de equipo siguen pendientes, sus destinatarios deberán aceptarlas desde sus propias cuentas.
+2. Clona `https://github.com/dmlean/prueba-daw2-equipo.git` en el PC de casa y abre esa carpeta en Codex.
+3. Empieza un chat nuevo en esa carpeta y pide: «Lee `AGENTS.md` y `REGISTRO_DE_CONVERSACION.md`; continúa desde el estado y los pendientes del registro. Mantén este hilo original privado y acompáñame con las tareas evaluables sin hacerlas por mí».
+
+Esto reanuda el contexto del proyecto desde los archivos versionados; no copia ni comparte literalmente el historial de este chat.
