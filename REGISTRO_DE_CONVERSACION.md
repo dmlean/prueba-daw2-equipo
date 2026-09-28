@@ -34,3 +34,12 @@ Este archivo es un resumen de traspaso preparado a petición del usuario. No es 
 - En `0616 - Projecte Intermodular 1` se verificó también que solo aparece el propietario, con acceso limitado a personas invitadas y sin invitados. La memoria está en modo `Solo proyecto`. Se añadieron y releyeron las instrucciones didácticas preparadas en `CHATGPT_PROJECT_INSTRUCTIONS.md`.
 - El siguiente paso didáctico es pedir al estudiante que resuma con sus palabras el problema del proyecto y a quién afecta; no redactar el mapa mental ni la entrega.
 - No se ha subido ningún archivo remoto ni se ha compartido este registro. Sigue siendo un resumen de acuerdos, no una transcripción literal del historial. El destino y sus colaboradores todavía no están verificados.
+
+## Estado actualizado — 28/09/2026
+
+- La copia local del equipo está limpia en `main`, con `origin` apuntando a `https://github.com/dmlean/prueba-daw2-equipo.git`. El HEAD local actual es `2713c17` (`Record ChatGPT project privacy setup`).
+- La sesión autenticada de GitHub como `dmlean` muestra 404 al abrir `dmlean/prueba-daw2-equipo`; no se puede confirmar si falta o si el usuario carece de acceso. No se ha podido verificar ni publicar el registro en ese destino.
+- El repositorio distinto `dmlean/prueba-0487-control-versions` es público. En su configuración de acceso figura una invitación pendiente para `2exan`; no figura como colaborador aceptado. No se ha cambiado su configuración ni se ha usado para guardar el registro del proyecto.
+- El usuario desea que el equipo tenga acceso al espacio de trabajo y a conversaciones de apoyo. GitHub puede alojar archivos, pero no comparte automáticamente un chat de ChatGPT. El proyecto de ChatGPT `0616 - Projecte Intermodular 1` sigue mostrando solo a su propietario; no se han invitado miembros ni compartido este hilo.
+- La tarea `🎛️0.6 Github (Visual Studio Code)` dice que se trabaje desde VS Code, complete el ciclo de ramas en los repositorios de ambos compañeros, intercambie roles y entregue dos capturas del historial de ramas. El primer vídeo enseña interfaz gráfica; el segundo usa la terminal integrada para configurar `user.name` y `user.email`, y luego muestra publicar, confirmar, sincronizar y clonar mediante la interfaz. Ninguno demuestra por completo la secuencia de merge y borrado de ramas de la tarea.
+- Lo pedido sobre esta conversación está representado aquí mediante un resumen, no una exportación literal. Este archivo sigue siendo local hasta que exista un destino remoto privado y accesible cuya audiencia esté verificada.
