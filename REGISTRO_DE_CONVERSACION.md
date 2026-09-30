@@ -51,3 +51,10 @@ Este archivo es un resumen de traspaso preparado a petición del usuario. No es 
 3. Empieza un chat nuevo en esa carpeta y pide: «Lee `AGENTS.md` y `REGISTRO_DE_CONVERSACION.md`; continúa desde el estado y los pendientes del registro. Mantén este hilo original privado y acompáñame con las tareas evaluables sin hacerlas por mí».
 
 Esto reanuda el contexto del proyecto desde los archivos versionados; no copia ni comparte literalmente el historial de este chat.
+
+## Estado del código — 30/09/2026
+
+- Se añadió `README.md` con el estado real y las instrucciones de clonación y apertura.
+- `index.html` y `styles.css` forman una página estática mínima y enlazada, sin dependencias ni servidor obligatorio.
+- Todavía no hay lógica de aplicación, almacenamiento, autenticación, roles implementados, pruebas ni configuración de despliegue. La elección de servidor y base de datos corresponde al equipo y sigue pendiente.
+- GitHub mostró las invitaciones a `2exan` y `Miguel-Gil-Moral` pendientes de aceptación en la última comprobación del 30/09/2026. Hasta que las acepten, no podrán clonar el repo privado.
