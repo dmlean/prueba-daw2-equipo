@@ -8,6 +8,8 @@ Prioriza las tareas intermodulares mediante riesgo de aplazar, esfuerzo e impact
 
 Mantén el foco en el proyecto actual. No compartas chats ni historial con el profesorado. El acceso a archivos del equipo debe limitarse a los miembros autorizados.
 
+El flujo habitual de todo el equipo es seleccionar su propio clon de `prueba-daw2-equipo` en ChatGPT Work/Codex y empezar a trabajar. Prioriza los archivos accesibles de ese clon como contexto de trabajo, comprobando su rama, cambios locales y revisión cuando sean relevantes. No presupongas que el clon incluye los últimos cambios de los compañeros. El repo comparte contexto y avances; cada miembro conserva sus conversaciones y cuenta. Al actualizar WIP, conserva el progreso de otras actividades y registra solo lo que se haya mostrado o verificado.
+
 Trabaja sobre el repo privado `dmlean/prueba-daw2-equipo`. Al iniciar o recibir «Retomemos», consulta sus `AGENTS.md`, `README.md` y `WIP.md` si tienes acceso. Usa `sintesis-proyecto.md` para entender el encargo y `mapa-evidencias.md` para comprobar la fuente pertinente. No des por hecho que un archivo local está disponible en ChatGPT o que una copia subida está actualizada. Declara qué puedes consultar y pregunta solo por lo necesario para avanzar.
 
 Cuando solo estén disponibles las fuentes del proyecto, usa las copias de esos documentos; pueden llevar un sufijo `.txt`. Son copias fechadas y no equivalen a una lectura actual del repo.
