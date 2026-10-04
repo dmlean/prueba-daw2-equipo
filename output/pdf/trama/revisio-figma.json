@@ -1,0 +1,266 @@
+{
+  "data": "2026-10-04",
+  "fitxer": "https://www.figma.com/design/YVAE5BQy7iatVfvDZHKOnH",
+  "estat": "Contingut complet i editable",
+  "estructura": {
+    "pageCount": 18,
+    "report": [
+      {
+        "id": "2:2",
+        "name": "01 · Manual d’identitat corporativa visual",
+        "w": 793.7008056640625,
+        "h": 1122.5196533203125,
+        "textCount": 8,
+        "instanceCount": 0,
+        "missingFont": [],
+        "otherFont": [],
+        "outside": [],
+        "imagePaints": 0
+      },
+      {
+        "id": "5:18",
+        "name": "02 · Índex i objecte del manual",
+        "w": 793.7008056640625,
+        "h": 1122.5196533203125,
+        "textCount": 40,
+        "instanceCount": 0,
+        "missingFont": [],
+        "otherFont": [],
+        "outside": [],
+        "imagePaints": 0
+      },
+      {
+        "id": "6:2",
+        "name": "03 · Públic i empatia",
+        "w": 793.7008056640625,
+        "h": 1122.5196533203125,
+        "textCount": 28,
+        "instanceCount": 0,
+        "missingFont": [],
+        "otherFont": [],
+        "outside": [],
+        "imagePaints": 0
+      },
+      {
+        "id": "6:44",
+        "name": "04 · Moodboard i direcció visual",
+        "w": 793.7008056640625,
+        "h": 1122.5196533203125,
+        "textCount": 23,
+        "instanceCount": 1,
+        "missingFont": [],
+        "otherFont": [],
+        "outside": [],
+        "imagePaints": 0
+      },
+      {
+        "id": "6:96",
+        "name": "05 · Missió, visió, valors i to",
+        "w": 793.7008056640625,
+        "h": 1122.5196533203125,
+        "textCount": 38,
+        "instanceCount": 0,
+        "missingFont": [],
+        "otherFont": [],
+        "outside": [],
+        "imagePaints": 0
+      },
+      {
+        "id": "6:153",
+        "name": "06 · Color amb una funció clara",
+        "w": 793.7008056640625,
+        "h": 1122.5196533203125,
+        "textCount": 46,
+        "instanceCount": 0,
+        "missingFont": [],
+        "otherFont": [],
+        "outside": [],
+        "imagePaints": 0
+      },
+      {
+        "id": "6:222",
+        "name": "07 · Contrast i informació visible",
+        "w": 793.7008056640625,
+        "h": 1122.5196533203125,
+        "textCount": 50,
+        "instanceCount": 2,
+        "missingFont": [],
+        "otherFont": [],
+        "outside": [],
+        "imagePaints": 0
+      },
+      {
+        "id": "6:299",
+        "name": "08 · Una sola família, moltes funcions",
+        "w": 793.7008056640625,
+        "h": 1122.5196533203125,
+        "textCount": 31,
+        "instanceCount": 0,
+        "missingFont": [],
+        "otherFont": [],
+        "outside": [],
+        "imagePaints": 0
+      },
+      {
+        "id": "6:344",
+        "name": "09 · Jerarquia per llegir i actuar",
+        "w": 793.7008056640625,
+        "h": 1122.5196533203125,
+        "textCount": 41,
+        "instanceCount": 1,
+        "missingFont": [],
+        "otherFont": [],
+        "outside": [],
+        "imagePaints": 0
+      },
+      {
+        "id": "6:407",
+        "name": "10 · Un identificador que connecta",
+        "w": 793.7008056640625,
+        "h": 1122.5196533203125,
+        "textCount": 21,
+        "instanceCount": 0,
+        "missingFont": [],
+        "otherFont": [],
+        "outside": [],
+        "imagePaints": 0
+      },
+      {
+        "id": "7:6",
+        "name": "11 · Proporció, protecció i reducció",
+        "w": 793.7008056640625,
+        "h": 1122.5196533203125,
+        "textCount": 32,
+        "instanceCount": 0,
+        "missingFont": [],
+        "otherFont": [],
+        "outside": [],
+        "imagePaints": 0
+      },
+      {
+        "id": "7:80",
+        "name": "12 · Recursos que expliquen el treball",
+        "w": 793.7008056640625,
+        "h": 1122.5196533203125,
+        "textCount": 35,
+        "instanceCount": 1,
+        "missingFont": [],
+        "otherFont": [],
+        "outside": [],
+        "imagePaints": 0
+      },
+      {
+        "id": "7:143",
+        "name": "13 · Usos incorrectes i correctes",
+        "w": 793.7008056640625,
+        "h": 1122.5196533203125,
+        "textCount": 37,
+        "instanceCount": 1,
+        "missingFont": [],
+        "otherFont": [],
+        "outside": [],
+        "imagePaints": 0
+      },
+      {
+        "id": "7:203",
+        "name": "14 · Ordre que facilita l’acció",
+        "w": 793.7008056640625,
+        "h": 1122.5196533203125,
+        "textCount": 35,
+        "instanceCount": 3,
+        "missingFont": [],
+        "otherFont": [],
+        "outside": [],
+        "imagePaints": 0
+      },
+      {
+        "id": "7:272",
+        "name": "15 · Del primer accés al projecte",
+        "w": 793.7008056640625,
+        "h": 1122.5196533203125,
+        "textCount": 39,
+        "instanceCount": 2,
+        "missingFont": [],
+        "otherFont": [],
+        "outside": [],
+        "imagePaints": 0
+      },
+      {
+        "id": "7:333",
+        "name": "16 · Tasques, estats i responsabilitat",
+        "w": 793.7008056640625,
+        "h": 1122.5196533203125,
+        "textCount": 46,
+        "instanceCount": 8,
+        "missingFont": [],
+        "otherFont": [],
+        "outside": [],
+        "imagePaints": 0
+      },
+      {
+        "id": "7:401",
+        "name": "17 · Una identitat al servei del treball",
+        "w": 793.7008056640625,
+        "h": 1122.5196533203125,
+        "textCount": 22,
+        "instanceCount": 0,
+        "missingFont": [],
+        "otherFont": [],
+        "outside": [],
+        "imagePaints": 0
+      },
+      {
+        "id": "7:432",
+        "name": "18 · Normes essencials i validació",
+        "w": 793.7008056640625,
+        "h": 1122.5196533203125,
+        "textCount": 50,
+        "instanceCount": 0,
+        "missingFont": [],
+        "otherFont": [],
+        "outside": [],
+        "imagePaints": 0
+      }
+    ]
+  },
+  "revisioVisualNativa": {
+    "paginesInspeccionades": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9
+    ],
+    "paginesPendents": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18
+    ],
+    "motiu": "Límit de crides del connector Figma MCP en el pla Starter.",
+    "componentsMarcaFinals": "Pendent de captura final per quota Starter."
+  },
+  "logoComponents": {
+    "identificador": "9:39",
+    "simbol": "9:40"
+  },
+  "seient": "View, sense canvi",
+  "limit": "No s’ha modificat el pla ni el seient. La revisió visual completa de les 18 pàgines correspon al PDF local.",
+  "ajustPendentQuota": {
+    "pagina": 8,
+    "accions": [
+      "Aplicar DM Sans Medium 500 a la mostra «Desa els canvis».",
+      "Aplicar DM Sans Bold 700 a la mostra «Projectes compartits»."
+    ],
+    "estat": "Corregit al PDF i a l’original maquetat; pendent al fitxer Figma."
+  }
+}

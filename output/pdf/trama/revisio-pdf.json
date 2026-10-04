@@ -1,0 +1,178 @@
+{
+  "pagines": 18,
+  "formatMm": [
+    210.0,
+    297.0
+  ],
+  "fonts": [
+    {
+      "pagina": 1,
+      "caracters": 407,
+      "fontsVisibles": [
+        "AAAAAA+DMSans-Bold",
+        "AAAAAA+DMSans-Medium",
+        "AAAAAA+DMSans-Regular"
+      ]
+    },
+    {
+      "pagina": 2,
+      "caracters": 1742,
+      "fontsVisibles": [
+        "AAAAAA+DMSans-Bold",
+        "AAAAAA+DMSans-Medium",
+        "AAAAAA+DMSans-Regular"
+      ]
+    },
+    {
+      "pagina": 3,
+      "caracters": 2118,
+      "fontsVisibles": [
+        "AAAAAA+DMSans-Bold",
+        "AAAAAA+DMSans-Medium",
+        "AAAAAA+DMSans-Regular"
+      ]
+    },
+    {
+      "pagina": 4,
+      "caracters": 1533,
+      "fontsVisibles": [
+        "AAAAAA+DMSans-Bold",
+        "AAAAAA+DMSans-Medium",
+        "AAAAAA+DMSans-Regular"
+      ]
+    },
+    {
+      "pagina": 5,
+      "caracters": 1868,
+      "fontsVisibles": [
+        "AAAAAA+DMSans-Bold",
+        "AAAAAA+DMSans-Medium",
+        "AAAAAA+DMSans-Regular"
+      ]
+    },
+    {
+      "pagina": 6,
+      "caracters": 1351,
+      "fontsVisibles": [
+        "AAAAAA+DMSans-Bold",
+        "AAAAAA+DMSans-Medium",
+        "AAAAAA+DMSans-Regular"
+      ]
+    },
+    {
+      "pagina": 7,
+      "caracters": 1631,
+      "fontsVisibles": [
+        "AAAAAA+DMSans-Bold",
+        "AAAAAA+DMSans-Medium",
+        "AAAAAA+DMSans-Regular"
+      ]
+    },
+    {
+      "pagina": 8,
+      "caracters": 1852,
+      "fontsVisibles": [
+        "AAAAAA+DMSans-Bold",
+        "AAAAAA+DMSans-Medium",
+        "AAAAAA+DMSans-Regular"
+      ]
+    },
+    {
+      "pagina": 9,
+      "caracters": 1508,
+      "fontsVisibles": [
+        "AAAAAA+DMSans-Bold",
+        "AAAAAA+DMSans-Medium",
+        "AAAAAA+DMSans-Regular"
+      ]
+    },
+    {
+      "pagina": 10,
+      "caracters": 1533,
+      "fontsVisibles": [
+        "AAAAAA+DMSans-Bold",
+        "AAAAAA+DMSans-Medium",
+        "AAAAAA+DMSans-Regular"
+      ]
+    },
+    {
+      "pagina": 11,
+      "caracters": 1471,
+      "fontsVisibles": [
+        "AAAAAA+DMSans-Bold",
+        "AAAAAA+DMSans-Medium",
+        "AAAAAA+DMSans-Regular"
+      ]
+    },
+    {
+      "pagina": 12,
+      "caracters": 1922,
+      "fontsVisibles": [
+        "AAAAAA+DMSans-Bold",
+        "AAAAAA+DMSans-Medium",
+        "AAAAAA+DMSans-Regular"
+      ]
+    },
+    {
+      "pagina": 13,
+      "caracters": 1265,
+      "fontsVisibles": [
+        "AAAAAA+DMSans-Bold",
+        "AAAAAA+DMSans-Medium",
+        "AAAAAA+DMSans-Regular"
+      ]
+    },
+    {
+      "pagina": 14,
+      "caracters": 1275,
+      "fontsVisibles": [
+        "AAAAAA+DMSans-Bold",
+        "AAAAAA+DMSans-Medium",
+        "AAAAAA+DMSans-Regular"
+      ]
+    },
+    {
+      "pagina": 15,
+      "caracters": 1825,
+      "fontsVisibles": [
+        "AAAAAA+DMSans-Bold",
+        "AAAAAA+DMSans-Medium",
+        "AAAAAA+DMSans-Regular"
+      ]
+    },
+    {
+      "pagina": 16,
+      "caracters": 1248,
+      "fontsVisibles": [
+        "AAAAAA+DMSans-Bold",
+        "AAAAAA+DMSans-Medium",
+        "AAAAAA+DMSans-Regular"
+      ]
+    },
+    {
+      "pagina": 17,
+      "caracters": 2193,
+      "fontsVisibles": [
+        "AAAAAA+DMSans-Bold",
+        "AAAAAA+DMSans-Medium",
+        "AAAAAA+DMSans-Regular"
+      ]
+    },
+    {
+      "pagina": 18,
+      "caracters": 2131,
+      "fontsVisibles": [
+        "AAAAAA+DMSans-Bold",
+        "AAAAAA+DMSans-Medium",
+        "AAAAAA+DMSans-Regular"
+      ]
+    }
+  ],
+  "retallsDetectats": {
+    "pages": 18,
+    "overflows": {},
+    "rightOverflows": {},
+    "operations": 1060
+  },
+  "mostresPesosPagina8": "Regular 400, Medium 500 i Bold 700 aplicats i revisats visualment."
+}

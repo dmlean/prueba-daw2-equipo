@@ -1,0 +1,92 @@
+{
+  "estat": "Versió editorial tancada",
+  "data": "2026-10-04",
+  "figma": "https://www.figma.com/design/YVAE5BQy7iatVfvDZHKOnH",
+  "fitxers": [
+    {
+      "ruta": "LLEGEIX-ME.md",
+      "bytes": 3933,
+      "sha256": "23c5713626180a60b631964412ec5573f4aa71443ef3d54e3e1fb2c36ea6fa32"
+    },
+    {
+      "ruta": "manual-identitat-trama.pdf",
+      "bytes": 82941,
+      "sha256": "fefef9e459c8ba5cf99c54ba91c021ef0e6eb4645190fda5d66567fb0eb26d8b"
+    },
+    {
+      "ruta": "original-editorial.json",
+      "bytes": 41655,
+      "sha256": "ebf88118ea64b1c85c9e309382c5b1015931d54059ab3743f516eabb0f51ad20"
+    },
+    {
+      "ruta": "original-editorial.md",
+      "bytes": 31386,
+      "sha256": "4d5a450b017257030b05b7234d9460e43a212c994bedabd83db941fd941f632a"
+    },
+    {
+      "ruta": "original-maquetat.html",
+      "bytes": 135665,
+      "sha256": "9238a3d09e3a1af0114c4e4244cded5364fdb7ddbc882b0da133dbf9dac4985d"
+    },
+    {
+      "ruta": "recursos/DM-Sans-Bold.ttf",
+      "bytes": 56700,
+      "sha256": "fb78290372231cd415b2ebdcb218a390c9f78902d883c304dcf3569e40590c15"
+    },
+    {
+      "ruta": "recursos/DM-Sans-Medium.ttf",
+      "bytes": 56796,
+      "sha256": "0ef0fab80ccc06680ad5f68f965d394b37f73ab31b1b2356959a5b733d90b856"
+    },
+    {
+      "ruta": "recursos/DM-Sans-Regular.ttf",
+      "bytes": 56800,
+      "sha256": "5dac115089fee26750df31d30dd3e380e0b3d9778904df8ac0030713099f4246"
+    },
+    {
+      "ruta": "recursos/OFL-DM-Sans.txt",
+      "bytes": 4482,
+      "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+    },
+    {
+      "ruta": "recursos/guia-figma.md",
+      "bytes": 7492,
+      "sha256": "9484f9b1031d44dc7949b301081bef6295689130e82c868256130de2a4ef770d"
+    },
+    {
+      "ruta": "recursos/logo-invers.svg",
+      "bytes": 6154,
+      "sha256": "2f2e7b7b4aba92f009bd2d58c761b907aba57e88aa6ad8750262131a449b7ca7"
+    },
+    {
+      "ruta": "recursos/logo-monocrom.svg",
+      "bytes": 6156,
+      "sha256": "864dd61975e7e773144175d959238195925766783323c6fdefbe146caf05d9d2"
+    },
+    {
+      "ruta": "recursos/logo-principal.svg",
+      "bytes": 6156,
+      "sha256": "1126beb312000181f825151970b567abea74f54041b0129a59bae3a35c134ffd"
+    },
+    {
+      "ruta": "recursos/simbol-trama.svg",
+      "bytes": 606,
+      "sha256": "eb0707b4b04188edabbcbdcbe8348514bedbfd6a9467dc712903f348925bea0b"
+    },
+    {
+      "ruta": "recursos/sistema-visual.json",
+      "bytes": 20657,
+      "sha256": "7f2a143cf5b6ac0d88c9c0bd69a4fe78bd8644ecb93a06a7ca8d0fb551b16e64"
+    },
+    {
+      "ruta": "revisio-figma.json",
+      "bytes": 6793,
+      "sha256": "fb6a79f5355ae3e8b04e4ba0cefcc20b324251fa74c6024b617d8068ed8f2b93"
+    },
+    {
+      "ruta": "revisio-pdf.json",
+      "bytes": 3609,
+      "sha256": "5ad721ff9f084c1935ea620762e35dacdd91c6ae8e24860bfdebe59c18270014"
+    }
+  ]
+}

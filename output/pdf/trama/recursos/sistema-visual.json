@@ -1,0 +1,754 @@
+{
+  "marca": "Trama",
+  "estatEditorial": "Versió editorial tancada",
+  "estatDecisions": "Decisió editorial adoptada",
+  "abast": "Base visual editorial. No acredita acord col·lectiu, implementació funcional, conformitat global d’accessibilitat ni entrega acadèmica.",
+  "paleta": [
+    {
+      "nom": "Tinta",
+      "hex": "#17343B",
+      "funcio": "Text, estructura i contorns essencials",
+      "regla": "Text principal sobre Blanc, Paper i Ocre.",
+      "variableFigma": "color/tinta",
+      "idVariableFigma": "VariableID:3:3"
+    },
+    {
+      "nom": "Paper",
+      "hex": "#F4F5EF",
+      "funcio": "Fons general",
+      "regla": "No utilitzar la separació amb Blanc com a únic límit d’un control essencial.",
+      "variableFigma": "color/paper",
+      "idVariableFigma": "VariableID:3:4"
+    },
+    {
+      "nom": "Blanc",
+      "hex": "#FFFFFF",
+      "funcio": "Superfícies i text invers",
+      "regla": "Targetes i camps; text sobre Tinta, Verd trama i Argila.",
+      "variableFigma": "color/blanc",
+      "idVariableFigma": "VariableID:3:5"
+    },
+    {
+      "nom": "Verd trama",
+      "hex": "#176B5B",
+      "funcio": "Acció principal, enllaços i confirmació",
+      "regla": "Els enllaços incorporen subratllat; les confirmacions, un missatge explícit.",
+      "variableFigma": "color/verd-trama",
+      "idVariableFigma": "VariableID:3:6"
+    },
+    {
+      "nom": "Ocre",
+      "hex": "#E4B44C",
+      "funcio": "Destacats i estat En progrés",
+      "regla": "Utilitzar text Tinta; no utilitzar text Blanc.",
+      "variableFigma": "color/ocre",
+      "idVariableFigma": "VariableID:3:7"
+    },
+    {
+      "nom": "Argila",
+      "hex": "#A33832",
+      "funcio": "Errors i validació",
+      "regla": "Acompanyar el color amb una explicació textual.",
+      "variableFigma": "color/argila",
+      "idVariableFigma": "VariableID:3:8"
+    }
+  ],
+  "contrast": {
+    "norma": "WCAG 2.2",
+    "font": "https://www.w3.org/TR/WCAG22/",
+    "metode": "Luminància relativa sRGB; llindar de linealització 0,04045; (L més clara + 0,05) / (L més fosca + 0,05).",
+    "criteris": {
+      "textNormalAA": 4.5,
+      "textGranAA": 3,
+      "noTextualQuanAplicable": 3
+    },
+    "textGran": "18 pt o 14 pt en negreta; aproximadament 24 px o 18,7 px.",
+    "parells": [
+      {
+        "primerColor": "Blanc",
+        "segonColor": "Tinta",
+        "ratioSenseArrodonir": 13.201057488715326,
+        "ratioMostrada": "13,20:1",
+        "textNormalAA": true,
+        "textGranAA": true,
+        "contrastNoTextualQuanAplicable": true
+      },
+      {
+        "primerColor": "Tinta",
+        "segonColor": "Paper",
+        "ratioSenseArrodonir": 12.040610009196453,
+        "ratioMostrada": "12,04:1",
+        "textNormalAA": true,
+        "textGranAA": true,
+        "contrastNoTextualQuanAplicable": true
+      },
+      {
+        "primerColor": "Blanc",
+        "segonColor": "Verd trama",
+        "ratioSenseArrodonir": 6.38186161996675,
+        "ratioMostrada": "6,38:1",
+        "textNormalAA": true,
+        "textGranAA": true,
+        "contrastNoTextualQuanAplicable": true
+      },
+      {
+        "primerColor": "Verd trama",
+        "segonColor": "Paper",
+        "ratioSenseArrodonir": 5.820859954921403,
+        "ratioMostrada": "5,82:1",
+        "textNormalAA": true,
+        "textGranAA": true,
+        "contrastNoTextualQuanAplicable": true
+      },
+      {
+        "primerColor": "Tinta",
+        "segonColor": "Ocre",
+        "ratioSenseArrodonir": 6.871879561437998,
+        "ratioMostrada": "6,87:1",
+        "textNormalAA": true,
+        "textGranAA": true,
+        "contrastNoTextualQuanAplicable": true
+      },
+      {
+        "primerColor": "Argila",
+        "segonColor": "Blanc",
+        "ratioSenseArrodonir": 6.6266265743216115,
+        "ratioMostrada": "6,63:1",
+        "textNormalAA": true,
+        "textGranAA": true,
+        "contrastNoTextualQuanAplicable": true
+      },
+      {
+        "primerColor": "Blanc",
+        "segonColor": "Ocre",
+        "ratioSenseArrodonir": 1.9210257354907563,
+        "ratioMostrada": "1,92:1",
+        "textNormalAA": false,
+        "textGranAA": false,
+        "contrastNoTextualQuanAplicable": false
+      },
+      {
+        "primerColor": "Paper",
+        "segonColor": "Blanc",
+        "ratioSenseArrodonir": 1.0963777980212415,
+        "ratioMostrada": "1,10:1",
+        "textNormalAA": false,
+        "textGranAA": false,
+        "contrastNoTextualQuanAplicable": false
+      }
+    ],
+    "limit": "Aquestes comprovacions de parells no acrediten conformitat AA de tota l’aplicació."
+  },
+  "tipografia": {
+    "familia": "DM Sans",
+    "pesos": [
+      400,
+      500,
+      700
+    ],
+    "llicencia": "SIL Open Font License 1.1",
+    "fitxerLlicencia": "OFL-DM-Sans.txt",
+    "font": "https://github.com/google/fonts/tree/main/ofl/dmsans",
+    "editorial": {
+      "unitat": "pt",
+      "estils": [
+        {
+          "nom": "Títol",
+          "pes": 700,
+          "mida": 24,
+          "interlineat": 28,
+          "nomFigma": "Trama/Editorial/Títol",
+          "idEstilFigma": "S:a8387a8a3879ac31f97787aa9ec6f8731093252a,",
+          "midaFigmaPx": 32.0,
+          "interlineatFigmaPx": 37.333333333333336
+        },
+        {
+          "nom": "Subtítol",
+          "pes": 500,
+          "mida": 14,
+          "interlineat": 19,
+          "nomFigma": "Trama/Editorial/Subtítol",
+          "idEstilFigma": "S:4d882fc01bb4fd5ea5f7553674781c30d153d2f2,",
+          "midaFigmaPx": 18.666666666666668,
+          "interlineatFigmaPx": 25.333333333333332
+        },
+        {
+          "nom": "Cos",
+          "pes": 400,
+          "mida": 10.5,
+          "interlineat": 15,
+          "nomFigma": "Trama/Editorial/Cos",
+          "idEstilFigma": "S:88bef183ce6039c09a2e0b46b18e3bd68c5eeb86,",
+          "midaFigmaPx": 14.0,
+          "interlineatFigmaPx": 20.0
+        },
+        {
+          "nom": "Nota",
+          "pes": 400,
+          "mida": 9,
+          "interlineat": 12.5,
+          "nomFigma": "Trama/Editorial/Nota",
+          "idEstilFigma": "S:bd48bcf48d297b5a8ac5df9980356f6532547fd7,",
+          "midaFigmaPx": 12.0,
+          "interlineatFigmaPx": 16.666666666666668
+        }
+      ]
+    },
+    "interficie": {
+      "unitat": "px",
+      "estils": [
+        {
+          "nom": "Cos",
+          "nomFigma": "Trama/UI/Cos",
+          "idEstilFigma": "S:1aab814988f330f2b9b878658b9687bcc9a6b383,",
+          "pes": 400,
+          "mida": 16,
+          "interlineat": 24
+        },
+        {
+          "nom": "Etiqueta",
+          "nomFigma": "Trama/UI/Etiqueta",
+          "idEstilFigma": "S:7b8adfa557c988061267d76932184eb964159683,",
+          "pes": 500,
+          "mida": 14,
+          "interlineat": 20
+        },
+        {
+          "nom": "Nota",
+          "nomFigma": "Trama/UI/Nota",
+          "idEstilFigma": "S:eb180bbc1f27c9f4d8846663509b26cbd4c273e5,",
+          "pes": 400,
+          "mida": 12,
+          "interlineat": 16
+        },
+        {
+          "nom": "Títol escriptori",
+          "nomFigma": "Trama/UI/Títol escriptori",
+          "idEstilFigma": "S:ac604511e5ec038a1c219c914200cf15f3763ec9,",
+          "pes": 700,
+          "mida": 28,
+          "interlineat": 34
+        },
+        {
+          "nom": "Títol mòbil",
+          "nomFigma": "Trama/UI/Títol mòbil",
+          "idEstilFigma": "S:2b5219799046915c1c90a8c4add3911d2eae5c67,",
+          "pes": 700,
+          "mida": 24,
+          "interlineat": 30
+        },
+        {
+          "nom": "Subtítol",
+          "nomFigma": "Trama/UI/Subtítol",
+          "idEstilFigma": "S:ad45c4900003cdcafd96c705c2f856a1c5859a35,",
+          "pes": 500,
+          "mida": 20,
+          "interlineat": 26
+        },
+        {
+          "nom": "Títol de targeta",
+          "nomFigma": "Trama/UI/Títol de targeta",
+          "idEstilFigma": "S:8438b802b248c2e7236fe1ff9580780bf6e0e622,",
+          "pes": 700,
+          "mida": 16,
+          "interlineat": 24
+        }
+      ]
+    },
+    "reglaMobil": "Conservar lectura a 16 px. Permetre embolcall del text i més altura; no reduir el contingut per fer-lo cabre.",
+    "mostraCatala": "Col·laboració, assignació, pròxima tasca, qüestió, accés. À È É Í Ò Ó Ú Ç · 0123456789",
+    "usosCompartits": {
+      "botons": "Trama/UI/Etiqueta",
+      "etiquetesDeCamp": "Trama/UI/Etiqueta",
+      "ajudaIValidacio": "Trama/UI/Nota",
+      "lecturaIDades": "Trama/UI/Cos",
+      "titolDeTargeta": "Trama/UI/Títol de targeta",
+      "dadaDestacada": "Trama/UI/Títol escriptori"
+    }
+  },
+  "espaiat": {
+    "unitat": "px en interfície; unitats vectorials en logo",
+    "valors": [
+      4,
+      8,
+      12,
+      16,
+      24,
+      32
+    ]
+  },
+  "radis": {
+    "unitat": "px",
+    "valors": [
+      8,
+      12,
+      999
+    ],
+    "control": 8,
+    "targeta": 12,
+    "estat": 999
+  },
+  "reticulaEditorial": {
+    "format": "A4 vertical",
+    "ampladaMm": 210,
+    "alturaMm": 297,
+    "margesMm": 18,
+    "columnes": 6,
+    "separacioColumnesMm": 4,
+    "numeracio": "Contínua, de l’1 al 18."
+  },
+  "logo": {
+    "construccio": {
+      "caixaSimbol": 32,
+      "gruix": 4,
+      "eixosVerticals": [
+        8,
+        16,
+        24
+      ],
+      "extensioCentral": [
+        4,
+        28
+      ],
+      "extensioLaterals": [
+        8,
+        24
+      ],
+      "connexioHoritzontal": {
+        "y": 16,
+        "xInici": 8,
+        "xFinal": 24
+      },
+      "separacioSimbolNom": 12,
+      "zonaSeguretat": 8,
+      "nomMidaReferencia": 32,
+      "unitatX": 4
+    },
+    "viewBoxConjunt": [
+      0,
+      0,
+      155.52,
+      48
+    ],
+    "viewBoxSimbol": [
+      0,
+      0,
+      48,
+      48
+    ],
+    "nomVectorial": "Contorns de DM Sans Bold 700, amb parellatge GPOS kern del fitxer de font local.",
+    "versions": [
+      "logo-principal.svg",
+      "logo-monocrom.svg",
+      "logo-invers.svg",
+      "simbol-trama.svg"
+    ],
+    "regles": [
+      "Escalar proporcionalment.",
+      "No retallar la zona de protecció.",
+      "No afegir ombres, degradats ni contorns.",
+      "Versió inversa només sobre fons fosc net."
+    ],
+    "minimsAdoptats": {
+      "estat": "Decisió editorial adoptada després de la comprovació del render",
+      "ampladaConjuntPx": 120,
+      "costatSimbolPx": 24,
+      "ampladaConjuntImpresMm": 30,
+      "referenciaMesura": "Mida de la caixa de construcció del conjunt o del símbol, exclosa la protecció exterior de 8 unitats per costat.",
+      "caixaConjuntSenseProteccio": [
+        139.52,
+        32
+      ],
+      "caixaSimbolSenseProteccio": [
+        32,
+        32
+      ],
+      "prova": "Comparació visual de les mostres renderitzades del manual.",
+      "pendent": "Prova d’ús en dispositius i impressió física."
+    },
+    "componentsFigma": [
+      "Marca / Identificador · Principal",
+      "Marca / Identificador · Monocroma",
+      "Marca / Identificador · Inversa",
+      "Marca / Símbol"
+    ]
+  },
+  "components": {
+    "Boto": {
+      "nom": "Botó",
+      "alturaMinimaPx": 44,
+      "radiPx": 8,
+      "espaiHoritzontalPx": 16,
+      "textEstil": "Trama/UI/Etiqueta",
+      "principal": {
+        "fons": "Verd trama",
+        "text": "Blanc",
+        "exemple": "Crea la tasca"
+      },
+      "secundari": {
+        "fons": "Blanc",
+        "text": "Tinta",
+        "contorn": "Tinta",
+        "gruixContornPx": 1,
+        "exemple": "Cancel·la"
+      },
+      "regla": "Una acció principal per grup funcional. El text descriu l’acció.",
+      "nomFigma": "Trama/Botó",
+      "variantsFigma": [
+        "Principal",
+        "Secundari"
+      ]
+    },
+    "Camp": {
+      "nom": "Camp",
+      "alturaMinimaPx": 44,
+      "radiPx": 8,
+      "espaiHoritzontalPx": 12,
+      "fons": "Blanc",
+      "text": "Tinta",
+      "contorn": "Tinta",
+      "gruixContornPx": 1,
+      "etiquetaEstil": "Trama/UI/Etiqueta",
+      "ajudaEstil": "Trama/UI/Nota",
+      "regla": "Etiqueta visible; ajuda i error a prop del camp. No substituir l’etiqueta amb el marcador de posició.",
+      "contingutEstil": "Trama/UI/Cos",
+      "nomFigma": "Trama/Camp",
+      "variantsFigma": [
+        "Normal",
+        "Error",
+        "Focus"
+      ]
+    },
+    "Estat": {
+      "nom": "Estat",
+      "alturaMinimaPx": 24,
+      "radiPx": 999,
+      "espaiHoritzontalPx": 8,
+      "textEstil": "Trama/UI/Etiqueta",
+      "variants": [
+        {
+          "text": "Per fer",
+          "fons": "Paper",
+          "textColor": "Tinta"
+        },
+        {
+          "text": "En progrés",
+          "fons": "Ocre",
+          "textColor": "Tinta"
+        },
+        {
+          "text": "Feta",
+          "fons": "Verd trama",
+          "textColor": "Blanc"
+        }
+      ],
+      "regla": "El text visible identifica sempre l’estat, a més del color. Feta no mostra accions per canviar l’estat.",
+      "nomFigma": "Trama/Estat"
+    },
+    "Targeta": {
+      "nom": "Targeta",
+      "fons": "Blanc",
+      "radiPx": 12,
+      "espaiInteriorPx": 16,
+      "separacioInternaPx": 12,
+      "text": "Tinta",
+      "jerarquia": [
+        "Nom de la tasca",
+        "Responsable",
+        "Estat"
+      ],
+      "regla": "No utilitzar decoració que competeixi amb nom, responsable o estat.",
+      "nomFigma": "Trama/Targeta de tasca",
+      "titolEstil": "Trama/UI/Títol de targeta",
+      "contingutEstil": "Trama/UI/Cos"
+    },
+    "Focus": {
+      "nom": "Focus",
+      "sobreFonsClar": {
+        "color": "Verd trama",
+        "gruixPx": 2
+      },
+      "sobreFonsTinta": {
+        "color": "Blanc",
+        "gruixPx": 2
+      },
+      "regla": "El focus conserva un contorn contrastat de 2 px: Verd trama sobre fons clar i Blanc sobre Tinta. Comprovar la interacció al producte implementat."
+    },
+    "Validacio": {
+      "nom": "Validació",
+      "error": {
+        "colorText": "Argila",
+        "fons": "Blanc",
+        "exemple": "Escriu un nom per a la tasca."
+      },
+      "confirmacio": {
+        "colorText": "Verd trama",
+        "fons": "Blanc",
+        "exemple": "Els canvis s’han desat."
+      },
+      "regla": "Missatge textual concret. Argila sobre Blanc o Blanc sobre Argila; la informació no depèn només del color. Els exemples no acrediten funcionalitat implementada.",
+      "errorInvers": {
+        "colorText": "Blanc",
+        "fons": "Argila",
+        "exemple": "No s’han pogut desar els canvis."
+      },
+      "textEstil": "Trama/UI/Nota"
+    }
+  },
+  "imatges": {
+    "recursos": "Composicions pròpies i dades fictícies identificades.",
+    "informativa": "Descriure la informació necessària amb text alternatiu.",
+    "decorativa": "En web, utilitzar text alternatiu buit si no transmet informació necessària.",
+    "externes": "Pendents d’obtenció i de verificació de l’origen i les condicions d’ús."
+  },
+  "figma": {
+    "estat": "Fitxer complet en contingut i editable; revisió visual nativa parcial",
+    "url": "https://www.figma.com/design/YVAE5BQy7iatVfvDZHKOnH",
+    "fileKey": "YVAE5BQy7iatVfvDZHKOnH",
+    "pagines": [
+      {
+        "nom": "01 · Manual",
+        "frames": 18,
+        "format": "A4 vertical",
+        "ampladaPx": 793.7,
+        "alturaPx": 1122.52
+      },
+      {
+        "nom": "02 · Sistema visual",
+        "contingut": "Variables, estils de text i components locals reutilitzables."
+      }
+    ],
+    "recompte": {
+      "colorsPrimitius": 6,
+      "aliesSemantics": 13,
+      "dimensions": 11,
+      "estilsDeText": 11
+    },
+    "componentsLocals": [
+      "Trama/Botó",
+      "Trama/Camp",
+      "Trama/Estat",
+      "Trama/Targeta de tasca",
+      "Marca / Identificador",
+      "Marca / Símbol"
+    ],
+    "guia": "guia-figma.md",
+    "abast": "Manual editorial i sistema visual editables. No acredita acord col·lectiu, implementació de la web ni validació acadèmica.",
+    "revisio": {
+      "estructural": {
+        "paginesRevisades": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "resultat": "Auditoria completa: sense fonts absents ni desbordaments detectats."
+      },
+      "visualNativa": {
+        "paginesInspeccionades": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ],
+        "paginesSenseInspeccioNativa": [
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "limit": "La quota de crides de l’MCP del pla Starter ha bloquejat la revisió visual nativa de les pàgines 10–18."
+      },
+      "pdfLocal": {
+        "paginesInspeccionades": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15,
+          16,
+          17,
+          18
+        ],
+        "resultat": "Les 18 pàgines renderitzades del PDF local s’han revisat visualment."
+      },
+      "compte": "No s’ha canviat el pla ni el seient."
+    },
+    "componentsMarca": [
+      {
+        "nom": "Marca / Identificador",
+        "id": "9:39",
+        "tipus": "Conjunt de components",
+        "variants": [
+          "Principal",
+          "Monocroma",
+          "Inversa"
+        ]
+      },
+      {
+        "nom": "Marca / Símbol",
+        "id": "9:40",
+        "tipus": "Component vectorial"
+      }
+    ]
+  },
+  "colorsSemantics": [
+    {
+      "nomVariable": "color/fons/base",
+      "colorPrimitiva": "Paper",
+      "idVariableFigma": "VariableID:3:10"
+    },
+    {
+      "nomVariable": "color/fons/superficie",
+      "colorPrimitiva": "Blanc",
+      "idVariableFigma": "VariableID:3:11"
+    },
+    {
+      "nomVariable": "color/fons/invers",
+      "colorPrimitiva": "Tinta",
+      "idVariableFigma": "VariableID:3:12"
+    },
+    {
+      "nomVariable": "color/text/base",
+      "colorPrimitiva": "Tinta",
+      "idVariableFigma": "VariableID:3:13"
+    },
+    {
+      "nomVariable": "color/text/invers",
+      "colorPrimitiva": "Blanc",
+      "idVariableFigma": "VariableID:3:14"
+    },
+    {
+      "nomVariable": "color/text/enllac",
+      "colorPrimitiva": "Verd trama",
+      "idVariableFigma": "VariableID:3:15"
+    },
+    {
+      "nomVariable": "color/accio/principal",
+      "colorPrimitiva": "Verd trama",
+      "idVariableFigma": "VariableID:3:16"
+    },
+    {
+      "nomVariable": "color/estat/en-progres",
+      "colorPrimitiva": "Ocre",
+      "idVariableFigma": "VariableID:3:17"
+    },
+    {
+      "nomVariable": "color/error/fons",
+      "colorPrimitiva": "Argila",
+      "idVariableFigma": "VariableID:3:18",
+      "regla": "Sobre aquest fons Argila, text Blanc."
+    },
+    {
+      "nomVariable": "color/error/text",
+      "colorPrimitiva": "Argila",
+      "idVariableFigma": "VariableID:3:19"
+    },
+    {
+      "nomVariable": "color/vora/base",
+      "colorPrimitiva": "Tinta",
+      "idVariableFigma": "VariableID:3:20"
+    },
+    {
+      "nomVariable": "color/vora/error",
+      "colorPrimitiva": "Argila",
+      "idVariableFigma": "VariableID:3:21"
+    },
+    {
+      "nomVariable": "color/vora/focus",
+      "colorPrimitiva": "Verd trama",
+      "idVariableFigma": "VariableID:3:22"
+    }
+  ],
+  "dimensions": [
+    {
+      "nomVariable": "espai/4",
+      "valorPx": 4,
+      "idVariableFigma": "VariableID:3:24"
+    },
+    {
+      "nomVariable": "espai/8",
+      "valorPx": 8,
+      "idVariableFigma": "VariableID:3:25"
+    },
+    {
+      "nomVariable": "espai/12",
+      "valorPx": 12,
+      "idVariableFigma": "VariableID:3:26"
+    },
+    {
+      "nomVariable": "espai/16",
+      "valorPx": 16,
+      "idVariableFigma": "VariableID:3:27"
+    },
+    {
+      "nomVariable": "espai/24",
+      "valorPx": 24,
+      "idVariableFigma": "VariableID:3:28"
+    },
+    {
+      "nomVariable": "espai/32",
+      "valorPx": 32,
+      "idVariableFigma": "VariableID:3:29"
+    },
+    {
+      "nomVariable": "radi/control",
+      "valorPx": 8,
+      "idVariableFigma": "VariableID:3:30"
+    },
+    {
+      "nomVariable": "radi/targeta",
+      "valorPx": 12,
+      "idVariableFigma": "VariableID:3:31"
+    },
+    {
+      "nomVariable": "radi/estat",
+      "valorPx": 999,
+      "idVariableFigma": "VariableID:3:32"
+    },
+    {
+      "nomVariable": "gruix/vora-normal",
+      "valorPx": 1,
+      "idVariableFigma": "VariableID:3:33"
+    },
+    {
+      "nomVariable": "gruix/vora-focus",
+      "valorPx": 2,
+      "idVariableFigma": "VariableID:3:34"
+    }
+  ]
+}
