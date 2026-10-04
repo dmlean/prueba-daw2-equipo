@@ -2,6 +2,18 @@
 
 Aplicación web de gestión de proyectos para equipos de estudiantes. Este repositorio privado es el espacio de trabajo del equipo.
 
+## Retomar sin reconstruir el chat
+
+Abre el repo y pide a ChatGPT o Codex: **«Retomemos»**. El asistente lee las instrucciones y [WIP.md](WIP.md), comprueba lo que afecte al paso actual y propone una siguiente acción. Para una tarea evaluable, espera vuestro intento antes de continuar.
+
+| Documento | Para qué abrirlo |
+|---|---|
+| [WIP.md](WIP.md) | Trabajo observable, bloqueo, próxima acción y pendientes. Integra las funciones de WIP, BACKLOG y HANDOFF. |
+| [Síntesis del proyecto](sintesis-proyecto.md) | Entender producto, requisitos, entregables, calendario y propuestas. |
+| [Mapa de evidencias](mapa-evidencias.md) | Consultar la fuente de un requisito o resolver una contradicción. |
+
+Airtable conserva la gestión detallada de tareas y responsables; Git conserva código y cambios. Estos documentos permiten continuar con contexto y no crean un segundo tablero. La reconstrucción privada completa permanece fuera del repo.
+
 ## Empezar ahora
 
 Necesitas Git y Codex o Visual Studio Code en el ordenador donde vayas a trabajar.
@@ -27,23 +39,18 @@ git config user.email "Tu correo de GitHub"
 
 `index.html` y `styles.css` muestran una página inicial. Todavía no hay registro o inicio de sesión, proyectos o tareas funcionales, permisos, base de datos ni despliegue. Al añadir el servidor se actualizarán aquí los comandos reales de instalación y arranque.
 
-## Enunciado verificado el 30/09/2026
+## Usar el proyecto de ChatGPT con el repo
 
-El [proyecto intermodular](https://sites.google.com/politecnics.barcelona/proj01-gestideprojectes/el-projecte) exige para DAW registro e inicio de sesión, gestión de proyectos y tareas, roles y permisos, identidad corporativa, diseño adaptable mediante un framework CSS y despliegue. Pide entregar el modelo relacional y un script SQL con los `INSERT` necesarios. La fecha indicada para la aplicación completa es el **20/12/2026**. Análisis, calendario, recursos y gestión documental figuran como opcionales.
+El proyecto «0616 - Projecte Intermodular 1» y este repo tienen accesos distintos. Guardar un archivo aquí no lo incorpora automáticamente a las fuentes o instrucciones de ChatGPT.
 
-El [reto de programación 0612 y 0613](https://sites.google.com/politecnics.barcelona/m0607rep01programarleinadegest/repte) concreta Laravel y Eloquent en el servidor, una API y JavaScript para actualizar la interfaz. También describe las reglas de proyectos, miembros, tareas, estados y panel Kanban. El [reto de despliegue 0614](https://sites.google.com/politecnics.barcelona/m08-repte1/repte) pide publicar y documentar la aplicación, y que cada desarrollador tenga una base de datos local independiente; menciona XAMPP como opción local. Las fechas de versiones de esa página no indican año y deben confirmarse en Classroom. Consultad los textos originales al implementar cada parte.
+Para trabajo local, usar la carpeta del repo como carpeta principal del proyecto local de la app facilita leer sus archivos e instrucciones. Cuando se use ChatGPT con GitHub, comprobar que la conexión puede leer el repo privado y la revisión pertinente. Si el chat solo dispone de archivos subidos, estos son copias fechadas: actualizar únicamente el contexto que haya cambiado y declarar qué no se ha podido verificar. No instalar un sistema de sincronización para mantener estas notas. [Documentación oficial de proyectos](https://learn.chatgpt.com/docs/projects).
 
-## Dirección técnica inicial
+`CHATGPT_PROJECT_INSTRUCTIONS.md` contiene el texto preparado para las instrucciones de ChatGPT; editarlo aquí no modifica la configuración del proyecto. Antes de incorporar fuentes a un proyecto compartido, comprobar su audiencia. Compartir contexto del equipo no requiere compartir conversaciones o correos personales.
 
-- **Servidor:** Laravel con Eloquent, según el reto del curso. Laravel 12 es la versión propuesta para arrancar en este PC, que tiene PHP 8.2; Laravel 13 requiere PHP 8.3.
-- **Cliente:** JavaScript nativo para llamar a la API y modificar el DOM. Bootstrap es la opción sencilla propuesta para cumplir el requisito de framework CSS sin introducir una aplicación JavaScript adicional.
-- **Datos locales:** SQLite es la propuesta inicial porque cada desarrollador puede tener su propia base sin instalar un servidor de datos. La base local y las credenciales no se subirán a Git; las migraciones y los datos de ejemplo reproducibles sí. El motor para producción y el script SQL de entrega se confirmarán con el hosting y el equipo.
-- **Primera funcionalidad propuesta:** registro e inicio de sesión mediante la API, mostrando en la interfaz qué usuario ha accedido. Identificar al usuario permite implementar después sus proyectos y permisos.
-
-El equipo aún debe confirmar la versión que usarán todos y el destino de despliegue. El repositorio no incluye todavía una aplicación Laravel ni sus dependencias. Cuando se añada, abrir `index.html` dejará de ser el modo de ejecutar la aplicación completa.
+Al cerrar un paso con progreso comprobado, el asistente actualiza unas líneas de WIP. No hace falta copiar el chat, repasar todas las fuentes ni rellenar tres documentos de seguimiento. Las decisiones del equipo se acreditan y las entregas se comprueban por separado.
 
 ## Archivos de apoyo
 
 - `AGENTS.md`: pautas para Codex y otros agentes compatibles.
 - `CHATGPT_PROJECT_INSTRUCTIONS.md`: instrucciones preparadas para el proyecto de ChatGPT.
-- `REGISTRO_DE_CONVERSACION.md`: resumen de contexto y decisiones; no es una transcripción literal de chats.
+- `REGISTRO_DE_CONVERSACION.md`: referencia histórica fechada; para reanudar se usa WIP. No es una transcripción literal de chats.

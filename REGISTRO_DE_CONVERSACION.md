@@ -2,7 +2,9 @@
 
 Resumen de traspaso solicitado por el usuario. No es una transcripción literal del chat. Las comprobaciones fechadas indican cuándo se observó cada dato; Classroom y las decisiones del equipo pueden cambiar.
 
-## Estado vigente — 30/09/2026
+**Referencia histórica.** Desde la propuesta de integración del 04/10/2026, el punto de reanudación es [WIP.md](WIP.md); el encargo y sus fuentes están en la [síntesis](sintesis-proyecto.md) y el [mapa](mapa-evidencias.md). Conservar este registro no implica mantener un segundo resumen del progreso.
+
+## Estado observado — 30/09/2026
 
 - El repositorio de equipo es `dmlean/prueba-daw2-equipo`. GitHub lo muestra **privado**, con `2exan` y `Miguel-Gil-Moral` como los dos colaboradores efectivos. La cuenta propietaria es `dmlean`. No se ha cambiado la visibilidad del repositorio público original `Miguel-Gil-Moral/prueba-daw2`.
 - La rama `main` contiene `README.md`, `AGENTS.md`, `CHATGPT_PROJECT_INSTRUCTIONS.md`, este registro, `index.html` y `styles.css`. La página actual es estática; aún no hay aplicación Laravel, autenticación, datos, permisos ni despliegue.
@@ -30,7 +32,7 @@ Resumen de traspaso solicitado por el usuario. No es una transcripción literal 
 ## Reanudar desde otro ordenador
 
 1. Clonar `https://github.com/dmlean/prueba-daw2-equipo.git` con una cuenta autorizada y abrir la carpeta en Codex.
-2. Iniciar un chat en esa carpeta y pedir: «Lee `AGENTS.md`, `README.md` y `REGISTRO_DE_CONVERSACION.md`; continúa con el estado actual, verifica lo que haya cambiado y acompáñame en las tareas evaluables sin hacerlas por mí».
+2. Iniciar un chat en esa carpeta y pedir: «Retomemos». Las instrucciones remiten a README y WIP; este registro se consulta cuando haga falta la historia.
 
 ## Historial breve
 
