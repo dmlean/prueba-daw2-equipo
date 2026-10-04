@@ -4,7 +4,7 @@ Aplicación web de gestión de proyectos para equipos de estudiantes. Este repos
 
 ## Retomar sin reconstruir el chat
 
-Abre el repo y pide a ChatGPT o Codex: **«Retomemos»**. El asistente lee las instrucciones y [WIP.md](WIP.md), comprueba lo que afecte al paso actual y propone una siguiente acción. Para una tarea evaluable, espera vuestro intento antes de continuar.
+Cada miembro abre la carpeta raíz de su clon de `dmlean/prueba-daw2-equipo` como proyecto local en Codex y pide: **«Retomemos»**. El asistente identifica la copia de trabajo y su estado, lee [AGENTS.md](AGENTS.md) y [WIP.md](WIP.md), comprueba lo que afecte al paso actual y propone una siguiente acción. Para una tarea evaluable, espera vuestro intento antes de continuar. Si otro entorno de Work/Codex no carga las instrucciones, usa el [texto de inicio](CHATGPT_PROJECT_INSTRUCTIONS.md).
 
 | Documento | Para qué abrirlo |
 |---|---|
@@ -39,18 +39,22 @@ git config user.email "Tu correo de GitHub"
 
 `index.html` y `styles.css` muestran una página inicial. Todavía no hay registro o inicio de sesión, proyectos o tareas funcionales, permisos, base de datos ni despliegue. Al añadir el servidor se actualizarán aquí los comandos reales de instalación y arranque.
 
-## Usar el proyecto de ChatGPT con el repo
+## Trabajar sobre el repo con Work/Codex
 
-El proyecto «0616 - Projecte Intermodular 1» y este repo tienen accesos distintos. Guardar un archivo aquí no lo incorpora automáticamente a las fuentes o instrucciones de ChatGPT.
+El proyecto de trabajo del equipo es el repo remoto **`dmlean/prueba-daw2-equipo`**. El flujo acordado con el usuario es que cada miembro autorizado clone el repo y abra su carpeta raíz como proyecto local en Codex. El proyecto convencional de la web de ChatGPT queda fuera de este flujo: no hace falta subirle copias ni mantener su configuración.
 
-Para trabajo local, usar la carpeta del repo como carpeta principal del proyecto local de la app facilita leer sus archivos e instrucciones. Cuando se use ChatGPT con GitHub, comprobar que la conexión puede leer el repo privado y la revisión pertinente. Si el chat solo dispone de archivos subidos, estos son copias fechadas: actualizar únicamente el contexto que haya cambiado y declarar qué no se ha podido verificar. No instalar un sistema de sincronización para mantener estas notas. [Documentación oficial de proyectos](https://learn.chatgpt.com/docs/projects).
+GitHub comparte código, contexto e instrucciones. Una copia de trabajo puede tener cambios pendientes o una rama distinta: comprobarlo antes de incorporar trabajo de los compañeros o publicar, sin sobrescribirlo ni suponer que está actualizado. Cada miembro conserva sus cuentas y conversaciones; el contexto necesario para colaborar queda en los archivos del repo.
 
-`CHATGPT_PROJECT_INSTRUCTIONS.md` contiene el texto preparado para las instrucciones de ChatGPT; editarlo aquí no modifica la configuración del proyecto. Antes de incorporar fuentes a un proyecto compartido, comprobar su audiencia. Compartir contexto del equipo no requiere compartir conversaciones o correos personales.
+Las reglas comunes están en `AGENTS.md`. `CHATGPT_PROJECT_INSTRUCTIONS.md` conserva su nombre por compatibilidad y proporciona un texto breve para pedir su lectura en Work/Codex cuando sea necesario; no configura un proyecto web ni mantiene otra copia de las reglas.
 
 Al cerrar un paso con progreso comprobado, el asistente actualiza unas líneas de WIP. No hace falta copiar el chat, repasar todas las fuentes ni rellenar tres documentos de seguimiento. Las decisiones del equipo se acreditan y las entregas se comprueban por separado.
+
+## Comprobar el arranque en cada equipo
+
+Desde el clon abierto en Codex, pedir «Retomemos». El resultado debe identificar este repo, utilizar sus instrucciones y WIP, distinguir el progreso comprobado de lo pendiente y proponer una siguiente acción. Si no puede leerlos, corregir la carpeta seleccionada o el acceso antes de continuar. Comprobarlo en un ordenador no acredita el arranque en los de los demás miembros.
 
 ## Archivos de apoyo
 
 - `AGENTS.md`: pautas para Codex y otros agentes compatibles.
-- `CHATGPT_PROJECT_INSTRUCTIONS.md`: instrucciones preparadas para el proyecto de ChatGPT.
+- `CHATGPT_PROJECT_INSTRUCTIONS.md`: texto de inicio para trabajar con este repo en Work/Codex.
 - `REGISTRO_DE_CONVERSACION.md`: referencia histórica fechada; para reanudar se usa WIP. No es una transcripción literal de chats.
