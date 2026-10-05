@@ -1,0 +1,1462 @@
+{
+  "data": "2026-10-05",
+  "peça": "Prototip de disseny · dades fictícies",
+  "entorn": "Chrome headless, obert amb file:// i context sense connexió",
+  "resultat": "Comprovacions executades correctament; cap defecte obert observat",
+  "grups": [
+    {
+      "contingut": "Vuit vistes a 320, 390, 768 i 1440 px. Desbordaments, camps amb etiqueta, DM Sans, accés, absència de xarxa i errors.",
+      "resum": {
+        "total": 99,
+        "correctes": 99,
+        "defectes": 0
+      },
+      "detall": "detallComprovacions/vistes"
+    },
+    {
+      "contingut": "Creació, edició, validació, error i reintent, autoassignació, assignació administrativa, canvi d’estat, Feta, arrossegament, alternativa amb control, perfil i pertinència, reinici, recàrrega, enllaços i teclat.",
+      "resum": {
+        "total": 49,
+        "correctes": 49,
+        "defectes": 0
+      },
+      "detall": "detallComprovacions/recorreguts"
+    },
+    {
+      "contingut": "Recomprovació després de l’últim ajust de la taula a 320 i 390 px.",
+      "resum": {
+        "total": 9,
+        "correctes": 9,
+        "defectes": 0
+      },
+      "detall": "detallComprovacions/taulesMobil"
+    }
+  ],
+  "revisioVisual": {
+    "tipus": "Inspecció visual de captures seleccionades",
+    "observacio": "Textos i controls llegibles; taula mòbil adaptada a files; sense retalls observats en aquestes captures.",
+    "vistesInspeccionades": [
+      "Accés a 1440 px",
+      "Kanban a 1440 px",
+      "Kanban a 390 px",
+      "Formulari de tasca a 320 px",
+      "Projectes a 390 px",
+      "Detall de tasca Feta a 1440 px",
+      "Col·laboradors a 320 px"
+    ]
+  },
+  "limits": [
+    "Comprovació en Chrome del prototip local; no són proves amb persones usuàries.",
+    "Etiquetes, focus i recorregut amb teclat comprovats; no acredita conformitat global WCAG.",
+    "Les proves fan servir dades fictícies en memòria i no comproven autenticació o permisos d’un servidor."
+  ],
+  "empremtesSHA256": {
+    "index.html": "d5a30c8472861b4d693a720ac0d366cbfc1153f1933c0d026ffd91290df28d93",
+    "app.js": "5175e3e8e38ca6e70b8e34ec00dfecc1e9e371c70139f0e89fcf4c82abadcb43",
+    "styles.css": "29d46de342e6e7e9d15270dab17151d094477878468f3ff7f450523135b3e12a"
+  },
+  "detallComprovacions": {
+    "vistes": {
+      "comprovacions": [
+        {
+          "comprovacio": "Accés simulat obre els projectes",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "acces · 320 px · sense desbordament",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "acces · 320 px · etiquetes de camps",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "acces · 320 px · DM Sans carregada",
+          "resultat": "correcte",
+          "detall": "\"DM Sans\", sans-serif"
+        },
+        {
+          "comprovacio": "registre · 320 px · sense desbordament",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "registre · 320 px · etiquetes de camps",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "registre · 320 px · DM Sans carregada",
+          "resultat": "correcte",
+          "detall": "\"DM Sans\", sans-serif"
+        },
+        {
+          "comprovacio": "projectes · 320 px · sense desbordament",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "projectes · 320 px · etiquetes de camps",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "projectes · 320 px · DM Sans carregada",
+          "resultat": "correcte",
+          "detall": "\"DM Sans\", sans-serif"
+        },
+        {
+          "comprovacio": "projecte-nou · 320 px · sense desbordament",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "projecte-nou · 320 px · etiquetes de camps",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "projecte-nou · 320 px · DM Sans carregada",
+          "resultat": "correcte",
+          "detall": "\"DM Sans\", sans-serif"
+        },
+        {
+          "comprovacio": "kanban · 320 px · sense desbordament",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "kanban · 320 px · etiquetes de camps",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "kanban · 320 px · DM Sans carregada",
+          "resultat": "correcte",
+          "detall": "\"DM Sans\", sans-serif"
+        },
+        {
+          "comprovacio": "collaboradors · 320 px · sense desbordament",
+          "resultat": "correcte",
+          "detall": "[{\"tag\":\"TH\",\"text\":\"Relació amb el projecte\",\"x\":172.9375,\"y\":804,\"width\":170.53125,\"height\":44.5,\"right\":343.46875}]"
+        },
+        {
+          "comprovacio": "collaboradors · 320 px · etiquetes de camps",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "collaboradors · 320 px · DM Sans carregada",
+          "resultat": "correcte",
+          "detall": "\"DM Sans\", sans-serif"
+        },
+        {
+          "comprovacio": "tasca · 320 px · sense desbordament",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "tasca · 320 px · etiquetes de camps",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "tasca · 320 px · DM Sans carregada",
+          "resultat": "correcte",
+          "detall": "\"DM Sans\", sans-serif"
+        },
+        {
+          "comprovacio": "formulari-tasca · 320 px · sense desbordament",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "formulari-tasca · 320 px · etiquetes de camps",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "formulari-tasca · 320 px · DM Sans carregada",
+          "resultat": "correcte",
+          "detall": "\"DM Sans\", sans-serif"
+        },
+        {
+          "comprovacio": "acces · 390 px · sense desbordament",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "acces · 390 px · etiquetes de camps",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "acces · 390 px · DM Sans carregada",
+          "resultat": "correcte",
+          "detall": "\"DM Sans\", sans-serif"
+        },
+        {
+          "comprovacio": "registre · 390 px · sense desbordament",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "registre · 390 px · etiquetes de camps",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "registre · 390 px · DM Sans carregada",
+          "resultat": "correcte",
+          "detall": "\"DM Sans\", sans-serif"
+        },
+        {
+          "comprovacio": "projectes · 390 px · sense desbordament",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "projectes · 390 px · etiquetes de camps",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "projectes · 390 px · DM Sans carregada",
+          "resultat": "correcte",
+          "detall": "\"DM Sans\", sans-serif"
+        },
+        {
+          "comprovacio": "projecte-nou · 390 px · sense desbordament",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "projecte-nou · 390 px · etiquetes de camps",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "projecte-nou · 390 px · DM Sans carregada",
+          "resultat": "correcte",
+          "detall": "\"DM Sans\", sans-serif"
+        },
+        {
+          "comprovacio": "kanban · 390 px · sense desbordament",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "kanban · 390 px · etiquetes de camps",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "kanban · 390 px · DM Sans carregada",
+          "resultat": "correcte",
+          "detall": "\"DM Sans\", sans-serif"
+        },
+        {
+          "comprovacio": "collaboradors · 390 px · sense desbordament",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "collaboradors · 390 px · etiquetes de camps",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "collaboradors · 390 px · DM Sans carregada",
+          "resultat": "correcte",
+          "detall": "\"DM Sans\", sans-serif"
+        },
+        {
+          "comprovacio": "tasca · 390 px · sense desbordament",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "tasca · 390 px · etiquetes de camps",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "tasca · 390 px · DM Sans carregada",
+          "resultat": "correcte",
+          "detall": "\"DM Sans\", sans-serif"
+        },
+        {
+          "comprovacio": "formulari-tasca · 390 px · sense desbordament",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "formulari-tasca · 390 px · etiquetes de camps",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "formulari-tasca · 390 px · DM Sans carregada",
+          "resultat": "correcte",
+          "detall": "\"DM Sans\", sans-serif"
+        },
+        {
+          "comprovacio": "acces · 768 px · sense desbordament",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "acces · 768 px · etiquetes de camps",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "acces · 768 px · DM Sans carregada",
+          "resultat": "correcte",
+          "detall": "\"DM Sans\", sans-serif"
+        },
+        {
+          "comprovacio": "registre · 768 px · sense desbordament",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "registre · 768 px · etiquetes de camps",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "registre · 768 px · DM Sans carregada",
+          "resultat": "correcte",
+          "detall": "\"DM Sans\", sans-serif"
+        },
+        {
+          "comprovacio": "projectes · 768 px · sense desbordament",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "projectes · 768 px · etiquetes de camps",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "projectes · 768 px · DM Sans carregada",
+          "resultat": "correcte",
+          "detall": "\"DM Sans\", sans-serif"
+        },
+        {
+          "comprovacio": "projecte-nou · 768 px · sense desbordament",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "projecte-nou · 768 px · etiquetes de camps",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "projecte-nou · 768 px · DM Sans carregada",
+          "resultat": "correcte",
+          "detall": "\"DM Sans\", sans-serif"
+        },
+        {
+          "comprovacio": "kanban · 768 px · sense desbordament",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "kanban · 768 px · etiquetes de camps",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "kanban · 768 px · DM Sans carregada",
+          "resultat": "correcte",
+          "detall": "\"DM Sans\", sans-serif"
+        },
+        {
+          "comprovacio": "collaboradors · 768 px · sense desbordament",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "collaboradors · 768 px · etiquetes de camps",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "collaboradors · 768 px · DM Sans carregada",
+          "resultat": "correcte",
+          "detall": "\"DM Sans\", sans-serif"
+        },
+        {
+          "comprovacio": "tasca · 768 px · sense desbordament",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "tasca · 768 px · etiquetes de camps",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "tasca · 768 px · DM Sans carregada",
+          "resultat": "correcte",
+          "detall": "\"DM Sans\", sans-serif"
+        },
+        {
+          "comprovacio": "formulari-tasca · 768 px · sense desbordament",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "formulari-tasca · 768 px · etiquetes de camps",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "formulari-tasca · 768 px · DM Sans carregada",
+          "resultat": "correcte",
+          "detall": "\"DM Sans\", sans-serif"
+        },
+        {
+          "comprovacio": "acces · 1440 px · sense desbordament",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "acces · 1440 px · etiquetes de camps",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "acces · 1440 px · DM Sans carregada",
+          "resultat": "correcte",
+          "detall": "\"DM Sans\", sans-serif"
+        },
+        {
+          "comprovacio": "registre · 1440 px · sense desbordament",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "registre · 1440 px · etiquetes de camps",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "registre · 1440 px · DM Sans carregada",
+          "resultat": "correcte",
+          "detall": "\"DM Sans\", sans-serif"
+        },
+        {
+          "comprovacio": "projectes · 1440 px · sense desbordament",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "projectes · 1440 px · etiquetes de camps",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "projectes · 1440 px · DM Sans carregada",
+          "resultat": "correcte",
+          "detall": "\"DM Sans\", sans-serif"
+        },
+        {
+          "comprovacio": "projecte-nou · 1440 px · sense desbordament",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "projecte-nou · 1440 px · etiquetes de camps",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "projecte-nou · 1440 px · DM Sans carregada",
+          "resultat": "correcte",
+          "detall": "\"DM Sans\", sans-serif"
+        },
+        {
+          "comprovacio": "kanban · 1440 px · sense desbordament",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "kanban · 1440 px · etiquetes de camps",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "kanban · 1440 px · DM Sans carregada",
+          "resultat": "correcte",
+          "detall": "\"DM Sans\", sans-serif"
+        },
+        {
+          "comprovacio": "collaboradors · 1440 px · sense desbordament",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "collaboradors · 1440 px · etiquetes de camps",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "collaboradors · 1440 px · DM Sans carregada",
+          "resultat": "correcte",
+          "detall": "\"DM Sans\", sans-serif"
+        },
+        {
+          "comprovacio": "tasca · 1440 px · sense desbordament",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "tasca · 1440 px · etiquetes de camps",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "tasca · 1440 px · DM Sans carregada",
+          "resultat": "correcte",
+          "detall": "\"DM Sans\", sans-serif"
+        },
+        {
+          "comprovacio": "formulari-tasca · 1440 px · sense desbordament",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "formulari-tasca · 1440 px · etiquetes de camps",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "formulari-tasca · 1440 px · DM Sans carregada",
+          "resultat": "correcte",
+          "detall": "\"DM Sans\", sans-serif"
+        },
+        {
+          "comprovacio": "Cap petició externa",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "Cap error de JavaScript o consola",
+          "resultat": "correcte",
+          "detall": "[]"
+        }
+      ],
+      "resum": {
+        "total": 99,
+        "correctes": 99,
+        "defectes": 0
+      }
+    },
+    "recorreguts": {
+      "comprovacions": [
+        {
+          "comprovacio": "Accés buit mostra validació a correu i contrasenya",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "Validació situa el focus al primer camp",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "Correu invàlid conserva dades i explica l’error",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "Les dades d’exemple netegen la validació",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "Registre buit valida tres camps",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "Registre d’exemple obre projectes",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "Confirmació de registre és textual",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "Projecte buit valida el nom",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "Error simulat no crea projecte i conserva el nom",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "Error de desament textual i anuncia alerta",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "Simulació es consumeix una sola vegada",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "Crear projecte obre el seu tauler",
+          "resultat": "correcte",
+          "detall": "#kanban/p4"
+        },
+        {
+          "comprovacio": "El creador té rol administrador",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "Projecte nou té el creador com a únic col·laborador administrador",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "Tasca buida valida el títol",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "Crear tasca obre detall amb responsable tipus i Per fer",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "Un altre perfil no veu el projecte on no participa",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "Enllaç directe d’un projecte aliè orienta als projectes del perfil",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "Reiniciar recupera dos projectes d’exemple",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "Membre es pot autoassignar una tasca",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "Responsable pot passar a En progrés",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "Canvi d’estat en detall conserva focus al control",
+          "resultat": "correcte",
+          "detall": "{\"id\":\"detail-status\",\"tag\":\"SELECT\"}"
+        },
+        {
+          "comprovacio": "Feta elimina controls per canviar d’estat",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "Passar a Feta conserva focus útil",
+          "resultat": "correcte",
+          "detall": "{\"id\":\"page-title\",\"tag\":\"H1\"}"
+        },
+        {
+          "comprovacio": "Feta permet editar els altres camps i no ofereix selector d’estat",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "Desar edició conserva Feta encara que es demani un altre estat",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "Membre no té selector per assignar a altres",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "Membre no pot assignar a un altre mitjançant camp afegit",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "Administrador disposa de selector de responsables",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "Administrador assigna a un altre membre",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "Canvi d’estat es reserva al responsable en aquest recorregut",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "El responsable assignat veu el canvi d’estat",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "Tasca pròpia no final es pot arrossegar",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "Tasca Feta no té arrossegament",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "Selector canvia la columna",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "Arrossegament real canvia En progrés",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "Selector mòbil mostra Feta i amaga altres columnes",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "Canvi per control mòbil mostra la columna nova",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "Enllaç de salt manté la vista i porta al contingut",
+          "resultat": "correcte",
+          "detall": "#kanban/p1;contingut"
+        },
+        {
+          "comprovacio": "Tab segueix dels camps a la contrasenya",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "Acció principal accessible amb focus visible",
+          "resultat": "correcte",
+          "detall": "{\"text\":\"Inicia la sessió\",\"outline\":\"solid\",\"width\":\"2px\"}"
+        },
+        {
+          "comprovacio": "Projectes obre Portal del taller",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "Recorregut principal arriba a edició",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "Recorregut principal acaba amb confirmació",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "Enllaç no trobat orienta cap als projectes",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "Recarregar recupera la mostra inicial",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "Recarregar elimina les edicions en memòria",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "Cap petició externa",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "Cap error JavaScript o consola",
+          "resultat": "correcte",
+          "detall": "[]"
+        }
+      ],
+      "resum": {
+        "total": 49,
+        "correctes": 49,
+        "defectes": 0
+      }
+    },
+    "taulesMobil": {
+      "comprovacions": [
+        {
+          "comprovacio": "Accés simulat obre els projectes",
+          "resultat": "correcte",
+          "detall": ""
+        },
+        {
+          "comprovacio": "collaboradors · 320 px · sense desbordament",
+          "resultat": "correcte",
+          "detall": "[{\"tag\":\"TH\",\"text\":\"Relació amb el projecte\",\"x\":172.9375,\"y\":804,\"width\":170.53125,\"height\":44.5,\"right\":343.46875}]"
+        },
+        {
+          "comprovacio": "collaboradors · 320 px · etiquetes de camps",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "collaboradors · 320 px · DM Sans carregada",
+          "resultat": "correcte",
+          "detall": "\"DM Sans\", sans-serif"
+        },
+        {
+          "comprovacio": "collaboradors · 390 px · sense desbordament",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "collaboradors · 390 px · etiquetes de camps",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "collaboradors · 390 px · DM Sans carregada",
+          "resultat": "correcte",
+          "detall": "\"DM Sans\", sans-serif"
+        },
+        {
+          "comprovacio": "Cap petició externa",
+          "resultat": "correcte",
+          "detall": "[]"
+        },
+        {
+          "comprovacio": "Cap error de JavaScript o consola",
+          "resultat": "correcte",
+          "detall": "[]"
+        }
+      ],
+      "resum": {
+        "total": 9,
+        "correctes": 9,
+        "defectes": 0
+      }
+    }
+  },
+  "manualPreservat": {
+    "fitxers": 19,
+    "estat": "Empremtes dels fitxers originals conservades."
+  },
+  "paquet": "trama-manual-i-prototip.zip",
+  "versioProvesAnteriors": "Els grups, les captures i la comprovació del paquet originals corresponen a la versió inicial del 5 d’octubre de 2026. La revisió de la correcció textual s’afegeix com a registre separat.",
+  "empremtesVersioInicial": {
+    "index.html": "dd26c6dcd7d7bb61f46ffcfffac9a837d1a2aebbb84229d046e16bbae05d3a25",
+    "app.js": "5175e3e8e38ca6e70b8e34ec00dfecc1e9e371c70139f0e89fcf4c82abadcb43",
+    "styles.css": "29d46de342e6e7e9d15270dab17151d094477878468f3ff7f450523135b3e12a"
+  },
+  "comprovacioPaquetInicial": {
+    "entorn": "ZIP extret i obert amb file://, en Chrome sense connexió",
+    "resum": {
+      "total": 71,
+      "correctes": 71,
+      "defectes": 0
+    },
+    "comprovacions": [
+      {
+        "comprovacio": "Manifest: trama/manual/LLEGEIX-ME.md",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: trama/manual/manifest.json",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: trama/manual/manual-identitat-trama.pdf",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: trama/manual/original-editorial.json",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: trama/manual/original-editorial.md",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: trama/manual/original-maquetat.html",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: trama/manual/recursos/DM-Sans-Bold.ttf",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: trama/manual/recursos/DM-Sans-Medium.ttf",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: trama/manual/recursos/DM-Sans-Regular.ttf",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: trama/manual/recursos/OFL-DM-Sans.txt",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: trama/manual/recursos/guia-figma.md",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: trama/manual/recursos/logo-invers.svg",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: trama/manual/recursos/logo-monocrom.svg",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: trama/manual/recursos/logo-principal.svg",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: trama/manual/recursos/simbol-trama.svg",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: trama/manual/recursos/sistema-visual.json",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: trama/manual/revisio-figma.json",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: trama/manual/revisio-pdf.json",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: trama/prototip/GUIA.md",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: trama/prototip/app.js",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: trama/prototip/index.html",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: trama/prototip/manifest.json",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: trama/prototip/recursos/DM-Sans-Bold.ttf",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: trama/prototip/recursos/DM-Sans-Medium.ttf",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: trama/prototip/recursos/DM-Sans-Regular.ttf",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: trama/prototip/recursos/OFL-DM-Sans.txt",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: trama/prototip/recursos/logo-invers.svg",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: trama/prototip/recursos/logo-principal.svg",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: trama/prototip/recursos/simbol-trama.svg",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: trama/prototip/revisio.json",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: trama/prototip/styles.css",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: trama/LLEGEIX-ME.md",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: GUIA.md",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: app.js",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: index.html",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: recursos/DM-Sans-Bold.ttf",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: recursos/DM-Sans-Medium.ttf",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: recursos/DM-Sans-Regular.ttf",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: recursos/OFL-DM-Sans.txt",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: recursos/logo-invers.svg",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: recursos/logo-principal.svg",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: recursos/simbol-trama.svg",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: revisio.json",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: styles.css",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: LLEGEIX-ME.md",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: manual-identitat-trama.pdf",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: original-editorial.json",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: original-editorial.md",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: original-maquetat.html",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: recursos/DM-Sans-Bold.ttf",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: recursos/DM-Sans-Medium.ttf",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: recursos/DM-Sans-Regular.ttf",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: recursos/OFL-DM-Sans.txt",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: recursos/guia-figma.md",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: recursos/logo-invers.svg",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: recursos/logo-monocrom.svg",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: recursos/logo-principal.svg",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: recursos/simbol-trama.svg",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: recursos/sistema-visual.json",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: revisio-figma.json",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Manifest: revisio-pdf.json",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Fitxer igual al revisat: index.html",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Fitxer igual al revisat: app.js",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Fitxer igual al revisat: styles.css",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "El prototip extret obre l’accés",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Tres pesos de DM Sans disponibles sense connexió",
+        "resultat": "correcte",
+        "detall": "[{\"pes\":400,\"carregada\":true},{\"pes\":500,\"carregada\":true},{\"pes\":700,\"carregada\":true}]"
+      },
+      {
+        "comprovacio": "SVG de marca disponibles sense connexió",
+        "resultat": "correcte",
+        "detall": "[{\"src\":\"recursos/logo-invers.svg\",\"carregada\":true},{\"src\":\"recursos/logo-principal.svg\",\"carregada\":true}]"
+      },
+      {
+        "comprovacio": "Accés extret obre els projectes",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Projectes extrets obren el Kanban",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Cap petició externa",
+        "resultat": "correcte",
+        "detall": "[]"
+      },
+      {
+        "comprovacio": "Cap error en l’execució del paquet",
+        "resultat": "correcte",
+        "detall": "[]"
+      }
+    ],
+    "resultat": "CRC, manifests, recursos, fonts i recorregut d’accés a Kanban comprovats. Cap error ni petició externa observats."
+  },
+  "correccioTextual": {
+    "data": "2026-10-05",
+    "versio": "Correcció textual",
+    "entorn": "Chrome headless · file:// · sense connexió",
+    "comprovacions": [
+      {
+        "comprovacio": "Ajuda oberta · 320 px · sense desbordament",
+        "resultat": "correcte",
+        "detall": "320"
+      },
+      {
+        "comprovacio": "Ajuda oberta · 320 px · font local",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Ajuda oberta · 320 px · text corregit",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Accés → projectes · 320 px",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Projectes → Kanban · 320 px",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Kanban → tasca · 320 px",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Edició → detall · 320 px",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Confirmació · 320 px",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Reinici · 320 px",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Ajuda oberta · 390 px · sense desbordament",
+        "resultat": "correcte",
+        "detall": "390"
+      },
+      {
+        "comprovacio": "Ajuda oberta · 390 px · font local",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Ajuda oberta · 390 px · text corregit",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Accés → projectes · 390 px",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Projectes → Kanban · 390 px",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Kanban → tasca · 390 px",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Edició → detall · 390 px",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Confirmació · 390 px",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Reinici · 390 px",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Ajuda oberta · 768 px · sense desbordament",
+        "resultat": "correcte",
+        "detall": "768"
+      },
+      {
+        "comprovacio": "Ajuda oberta · 768 px · font local",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Ajuda oberta · 768 px · text corregit",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Accés → projectes · 768 px",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Projectes → Kanban · 768 px",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Kanban → tasca · 768 px",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Edició → detall · 768 px",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Confirmació · 768 px",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Reinici · 768 px",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Ajuda oberta · 1440 px · sense desbordament",
+        "resultat": "correcte",
+        "detall": "1440"
+      },
+      {
+        "comprovacio": "Ajuda oberta · 1440 px · font local",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Ajuda oberta · 1440 px · text corregit",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Accés → projectes · 1440 px",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Projectes → Kanban · 1440 px",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Kanban → tasca · 1440 px",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Edició → detall · 1440 px",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Confirmació · 1440 px",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Reinici · 1440 px",
+        "resultat": "correcte",
+        "detall": ""
+      },
+      {
+        "comprovacio": "Cap petició externa",
+        "resultat": "correcte",
+        "detall": "[]"
+      },
+      {
+        "comprovacio": "Cap error de JavaScript",
+        "resultat": "correcte",
+        "detall": "[]"
+      }
+    ],
+    "errors": [],
+    "peticionsExternes": [],
+    "resum": {
+      "total": 38,
+      "correctes": 38,
+      "defectes": 0
+    },
+    "inspeccioVisual": {
+      "mides": [
+        320,
+        390,
+        768,
+        1440
+      ],
+      "observacio": "Captures de l’ajuda oberta inspeccionades: textos llegibles, sense retalls ni desbordaments."
+    }
+  }
+}

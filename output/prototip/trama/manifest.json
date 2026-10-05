@@ -1,0 +1,67 @@
+{
+  "data": "2026-10-05",
+  "estat": "Prototip de disseny · dades fictícies",
+  "versio": "Correcció textual",
+  "fitxers": [
+    {
+      "ruta": "GUIA.md",
+      "bytes": 6807,
+      "sha256": "5d4c0eef0988b573f96a7faf1b3d03526a61608540a12b806becd84f06b042ff"
+    },
+    {
+      "ruta": "app.js",
+      "bytes": 31895,
+      "sha256": "5175e3e8e38ca6e70b8e34ec00dfecc1e9e371c70139f0e89fcf4c82abadcb43"
+    },
+    {
+      "ruta": "index.html",
+      "bytes": 2139,
+      "sha256": "d5a30c8472861b4d693a720ac0d366cbfc1153f1933c0d026ffd91290df28d93"
+    },
+    {
+      "ruta": "recursos/DM-Sans-Bold.ttf",
+      "bytes": 56700,
+      "sha256": "fb78290372231cd415b2ebdcb218a390c9f78902d883c304dcf3569e40590c15"
+    },
+    {
+      "ruta": "recursos/DM-Sans-Medium.ttf",
+      "bytes": 56796,
+      "sha256": "0ef0fab80ccc06680ad5f68f965d394b37f73ab31b1b2356959a5b733d90b856"
+    },
+    {
+      "ruta": "recursos/DM-Sans-Regular.ttf",
+      "bytes": 56800,
+      "sha256": "5dac115089fee26750df31d30dd3e380e0b3d9778904df8ac0030713099f4246"
+    },
+    {
+      "ruta": "recursos/OFL-DM-Sans.txt",
+      "bytes": 4482,
+      "sha256": "9af36190332437f5ecd09974de43c1f7c77a310a996cdd8ceb25628b458840e1"
+    },
+    {
+      "ruta": "recursos/logo-invers.svg",
+      "bytes": 6154,
+      "sha256": "2f2e7b7b4aba92f009bd2d58c761b907aba57e88aa6ad8750262131a449b7ca7"
+    },
+    {
+      "ruta": "recursos/logo-principal.svg",
+      "bytes": 6156,
+      "sha256": "1126beb312000181f825151970b567abea74f54041b0129a59bae3a35c134ffd"
+    },
+    {
+      "ruta": "recursos/simbol-trama.svg",
+      "bytes": 606,
+      "sha256": "eb0707b4b04188edabbcbdcbe8348514bedbfd6a9467dc712903f348925bea0b"
+    },
+    {
+      "ruta": "revisio.json",
+      "bytes": 43607,
+      "sha256": "030c380edb458f8df025acb2bb18cb6e3eaa91e47147c12a56af306a3326f050"
+    },
+    {
+      "ruta": "styles.css",
+      "bytes": 29396,
+      "sha256": "29d46de342e6e7e9d15270dab17151d094477878468f3ff7f450523135b3e12a"
+    }
+  ]
+}

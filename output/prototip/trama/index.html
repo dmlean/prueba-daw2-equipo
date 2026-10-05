@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ca">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Prototip navegable de Trama amb dades fictícies, relacionat amb el manual d’identitat visual.">
+  <title>Trama · Prototip de disseny</title>
+  <link rel="icon" href="recursos/simbol-trama.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#contingut">Ves al contingut</a>
+  <aside class="demo-bar" aria-label="Controls del prototip">
+    <div class="demo-title"><strong>Prototip de disseny · dades fictícies</strong><span>Peça relacionada amb el manual d’identitat de Trama</span></div>
+    <div class="demo-controls">
+      <label for="scenarioSelect">Perfil de prova a «Portal del taller»
+        <select id="scenarioSelect"><option value="b">Membre B · Membre</option><option value="a">Membre A · Administrador</option></select>
+      </label>
+      <label class="simulation-option" for="simulateError"><input type="checkbox" id="simulateError">Simula un error de desament</label>
+      <button class="button button-secondary button-small" id="resetDemo" type="button">Reinicia la mostra</button>
+    </div>
+    <details class="demo-help"><summary>Com revisar el prototip</summary><p>Omple l’accés amb les dades d’exemple i entra a «Portal del taller». Obre una tasca per revisar-la o editar-la. Canvia el perfil per comparar l’autoassignació amb l’assignació administrativa. Les dades canvien només mentre aquesta pàgina és oberta. «Reinicia la mostra» recupera el punt inicial.</p><p>El selector de perfils i la simulació d’error són controls de revisió externs a l’aplicació. Aquesta peça representa recorreguts de disseny.</p></details>
+  </aside>
+  <div id="app"></div>
+  <div id="feedback" class="snackbar" role="status" aria-live="polite" aria-atomic="true" hidden></div>
+  <noscript><p class="notice notice-error">Activa JavaScript al navegador per recórrer aquest prototip local.</p></noscript>
+</body>
+</html>
