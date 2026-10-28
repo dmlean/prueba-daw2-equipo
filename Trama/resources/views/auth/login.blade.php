@@ -53,5 +53,9 @@
         </form>
     </div>
 
+    <title>@yield('title')</title>
+</head>
+<body>
+    
 </body>
 </html>
