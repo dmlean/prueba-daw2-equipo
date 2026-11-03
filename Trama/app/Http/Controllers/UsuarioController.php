@@ -29,6 +29,15 @@ class UsuarioController extends Controller
     public function store(Request $request)
     {
         //
+        $usuario = new Usuario();
+
+        $usuario->nombre = $request->nombre;
+        $usuario->apellido = $request->apellido;
+        $usuario->email = $request->email;
+        $usuario->contrasenya -> bcrypt($request->password);
+
+        $usuario->save();
+        return redirect('/');
     }
 
     /**
