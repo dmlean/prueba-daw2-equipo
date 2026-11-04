@@ -34,7 +34,9 @@
     </div>
 
     <div class="panelLogin w-full max-w-sm bg-neutral-primary-soft p-6 border border-default rounded-base shadow-xs hidden">
-        <form action="#">
+        <form action="{{ route('usuario.store') }}" method="POST">
+            @csrf
+
             <h1 class="text-xl font-semibold text-heading mb-6">Crear cuenta</h1>
             <div class="mb-4">
                 <label for="nombre" class="block mb-2.5 text-sm font-medium text-heading">Nombre</label>

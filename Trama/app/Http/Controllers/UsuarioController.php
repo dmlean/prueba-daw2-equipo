@@ -13,6 +13,7 @@ class UsuarioController extends Controller
     public function index()
     {
         //
+        return view('index');
     }
 
     /**
@@ -31,13 +32,13 @@ class UsuarioController extends Controller
         //
         $usuario = new Usuario();
 
-        $usuario->nombre = $request->nombre;
-        $usuario->apellido = $request->apellido;
-        $usuario->email = $request->email;
-        $usuario->contrasenya -> bcrypt($request->password);
+        $usuario->nombre = $request->input('nombre');
+        $usuario->apellido = $request->input('apellido');
+        $usuario->email = $request->input('email');
+        $usuario->contrasenya = bcrypt($request->input('password'));
 
         $usuario->save();
-        return redirect('/');
+        return redirect()->route('usuario.index');
     }
 
     /**
