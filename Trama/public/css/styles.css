@@ -6,6 +6,11 @@ body {
     height: 100vh
 }
 
+.error {
+    color: #a33832;
+    font-weight: bold;
+}
+
 .panelLogin {
     border-radius: 12px;
     background-color: white;

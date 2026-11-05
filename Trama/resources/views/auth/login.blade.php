@@ -34,11 +34,17 @@
     </div>
 
     <div class="panelLogin w-full max-w-sm bg-neutral-primary-soft p-6 border border-default rounded-base shadow-xs hidden">
-        <form action="#">
+        <form action="{{ route('usuario.store') }}" method="POST">
+            @csrf
+
             <h1 class="text-xl font-semibold text-heading mb-6">Crear cuenta</h1>
             <div class="mb-4">
                 <label for="nombre" class="block mb-2.5 text-sm font-medium text-heading">Nombre</label>
                 <input id="nombre" type="text" name="nombre" class="bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full px-3 py-2.5 shadow-xs placeholder:text-body" placeholder="pepe" required>
+            </div>
+            <div class="mb-4">
+                <label for="apellido" class="block mb-2.5 text-sm font-medium text-heading">Apellido</label>
+                <input id="apellido" type="text" name="apellido" class="bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full px-3 py-2.5 shadow-xs placeholder:text-body" placeholder="gonzalez" required>
             </div>
             <div class="mb-4">
                 <label for="email" class="block mb-2.5 text-sm font-medium text-heading">Correo Electrónico</label>
