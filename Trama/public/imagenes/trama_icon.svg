@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-labelledby="title desc">
+  <title id="title">Símbol de Trama</title>
+  <desc id="desc">Tres traços verticals arrodonits connectats per un traç horitzontal. Verd trama sobre fons transparent, amb 8 unitats de protecció exterior.</desc>
+  <metadata>Versió editorial tancada. Decisió editorial adoptada. Geometria vectorial pròpia.</metadata>
+  <g transform="translate(8 8)" fill="none" stroke="#176B5B" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"><path d="M8 8V24 M16 4V28 M24 8V24 M8 16H24"/></g>
+</svg>
