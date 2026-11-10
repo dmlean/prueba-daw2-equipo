@@ -10,6 +10,9 @@
     <link href="https://cdn.jsdelivr.net/npm/flowbite@4.0.1/dist/flowbite.min.css" rel="stylesheet" />
     <link rel="icon" type="image/png" href="{{ asset('imagenes/trama_icon.svg') }}">
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://googleapis.com" rel="stylesheet">
     <link rel="stylesheet" href="{{ asset('css/styles.css') }}"></link>
 </head>
 <body>
@@ -29,7 +32,7 @@
                 <input id="password" type="password" name="password" class="bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full px-3 py-2.5 shadow-xs placeholder:text-body" placeholder="•••••••••" value="{{ old('password') }}" required />
             </div>
             <button id="botonLogin" type="submit" class="botonLogin text-white bg-brand box-border border border-transparent hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none w-full mb-3">Iniciar Sesión</button>
-            <div class="text-sm font-medium text-body">No tienes cuenta? <a href="#" class="cambiarPanel text-fg-brand hover:underline">Crear cuenta</a></div>
+            <div class="preguntaLogin text-sm font-medium text-body">No tienes cuenta? <a href="#" class="cambiarPanel text-fg-brand hover:underline">Crear cuenta</a></div>
         </form>
     </div>
 
@@ -55,7 +58,7 @@
                 <input id="password" type="password" name="password" class="bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full px-3 py-2.5 shadow-xs placeholder:text-body" placeholder="•••••••••" required />
             </div>
             <button type="submit" class="botonLogin text-white bg-brand box-border border border-transparent hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none w-full mb-3">Iniciar Sesión</button>
-            <div class="text-sm font-medium text-body">Ya tienes cuenta? <a href="#" class="cambiarPanel text-fg-brand hover:underline">Iniciar sesión</a></div>
+            <div class="preguntaLogin text-sm font-medium text-body">Ya tienes cuenta? <a href="#" class="cambiarPanel text-fg-brand hover:underline">Iniciar sesión</a></div>
         </form>
     </div>
 </body>
