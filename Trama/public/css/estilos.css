@@ -9,18 +9,54 @@ header {
     padding: 4px;
 }
 
-.inic, .abrir {
+.inic {
     font-weight: 350;
     color: #176b5b;
     text-decoration: underline;
     cursor: pointer;
-
-
 }
 
-p {
-    padding-left: 18px;
-   
+.inic:hover {
+    background-color: #11272C;
+}
+
+.abrir {
+    font-weight: 350;
+    color: #ffffff;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.abrir:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.borrar {
+    color: #11272C;
+    cursor: pointer;
+}
+
+.acciones {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 15px;
+}
+
+.acciones button {
+    margin: 0;
+    padding: 13px;
+}
+
+.acciones p {
+    margin: 0;
+    padding: 0;
+}
+
+.borrar:hover {
+    text-decoration: underline;
+    
 }
 
 body {
@@ -44,12 +80,11 @@ button {
     font-size: 15px;
     border-radius: 8px;
     padding-left: 18px;
-    margin-left: 18px;
-    margin-bottom: 19px;
     background-color: #17343B;
-    color: WHITE;
+    color: white;
     box-decoration-break: none;
     border: none;
+    cursor:pointer;
 }
 
 h3 {
@@ -71,4 +106,8 @@ h3 {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(min(100%, 350px), 1fr));
     gap: 20px;
+}
+
+.listaProyectos {
+    padding-top: 17px;
 }
