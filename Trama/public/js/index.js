@@ -2,6 +2,7 @@
 // Recuperar proyectos guardados
 
 let proyectos = JSON.parse(localStorage.getItem("proyectosTrama"));
+const boton = document.getElementById('crearProyecto')
 
 // Crear proyectos iniciales
 

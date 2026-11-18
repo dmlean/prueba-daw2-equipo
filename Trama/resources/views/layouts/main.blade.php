@@ -12,7 +12,7 @@
             <img src="{{ asset('imagenes/logo-principal.svg') }}" alt="Foto" alt="Trama" width="164" height="47">
         </div>
 
-        <a href="{{ route('login') }}" class="inic"> Iniciar Sesión </a>
+        <a href="{{ route('login') }}" class="inic"> Iniciar Sesión </a> <!-- Colocar el nombre del usuario en vez de iniciar sesion -->
             
     </header>
 
@@ -25,7 +25,7 @@
 
             <p> Elige un proyecto y sigue con tu trabajo. </p>
 
-            <button id=crearProyecto onclick="crearProyecto()">
+            <button id=crearProyecto onclick="crearProyecto()"> <!-- Cambiar metodo por un evento en js -->
                 + Crear un Proyecto
             </button>
 

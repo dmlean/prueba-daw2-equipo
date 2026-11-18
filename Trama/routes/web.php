@@ -5,6 +5,7 @@ use App\Http\Controllers\UsuarioController;
 use App\Models\Usuario;
 use Illuminate\Support\Facades\Route;
 
+//Meter un middleware que te rediriga al login
 Route::get('/', function () {
          // return view('welcome');
          return view('layouts.main');
