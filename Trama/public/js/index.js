@@ -43,7 +43,9 @@ function mostrarProyectos() {
 
     lista.innerHTML = "";
 
-    proyectos.forEach(function(proyecto) {
+    for (let i = 0; i < proyectos.length; i++) {
+
+        const proyecto = proyectos[i];
 
         const tarjeta = document.createElement("div");
         tarjeta.className = "tarjeta";
@@ -73,18 +75,18 @@ function mostrarProyectos() {
             eliminarProyecto(proyecto.id);
         };
 
-        // Meter los dos elementos dentro de acciones
+        // Añadir botones al contenedor
         acciones.appendChild(abrir);
         acciones.appendChild(borrar);
 
-        // Construir la tarjeta
+        // Añadir elementos a la tarjeta
         tarjeta.appendChild(titulo);
         tarjeta.appendChild(separador);
         tarjeta.appendChild(acciones);
 
         lista.appendChild(tarjeta);
 
-    });
+    }
 
 }
 
@@ -96,12 +98,12 @@ function crearProyecto() {
 
     const nombre = prompt("Escribe el nombre del nuevo proyecto:");
 
-    if (nombre && nombre.trim() !== "") {
+    if (nombre !== "") {
 
         const nuevoProyecto = {
 
             id: Date.now(),
-            nombre: nombre.trim(),
+            nombre: nombre,
 
         };
 
