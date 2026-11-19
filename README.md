@@ -26,9 +26,9 @@ Necesitas Git y Codex o Visual Studio Code en el ordenador donde vayas a trabaja
    cd prueba-daw2-equipo
    ```
 
-3. Abre esta carpeta en Codex o Visual Studio Code. Para ver la página actual, abre `index.html` en un navegador.
+3. Abre esta carpeta en Codex o Visual Studio Code. Para ver la página HTML inicial, abre `index.html` en un navegador.
 
-La página actual solo usa HTML y CSS: no necesita instalar paquetes ni arrancar un servidor. Cada clon es una copia local; los cambios del equipo se intercambian mediante Git. Configura tu nombre y correo de Git para **este repositorio** cuando vayas a hacer tu primer commit, si todavía no están configurados:
+La página HTML inicial puede abrirse sin instalar paquetes ni arrancar un servidor. La carpeta `Trama` contiene un proyecto Laravel, cuyos requisitos declarados están en `Trama/composer.json`. Cada clon es una copia local; los cambios del equipo se intercambian mediante Git. Configura tu nombre y correo de Git para **este repositorio** cuando vayas a hacer tu primer commit, si todavía no están configurados:
 
 ```powershell
 git config user.name "Tu nombre"
@@ -37,7 +37,7 @@ git config user.email "Tu correo de GitHub"
 
 ## Estado del producto
 
-`index.html` y `styles.css` muestran una página inicial. Todavía no hay registro o inicio de sesión, proyectos o tareas funcionales, permisos, base de datos ni despliegue. Al añadir el servidor se actualizarán aquí los comandos reales de instalación y arranque.
+`index.html` y `styles.css` muestran una página inicial. La carpeta `Trama` contiene estructura Laravel y una ruta inicial; su `composer.json` declara PHP `^8.3` y Laravel `^13.17`. En esta revisión no se ha comprobado el funcionamiento de la aplicación, la base de datos ni un despliegue. Otras ramas pueden contener avances distintos; [WIP.md](WIP.md) recoge el alcance comprobado.
 
 ## Trabajar sobre el repo con Work/Codex
 
