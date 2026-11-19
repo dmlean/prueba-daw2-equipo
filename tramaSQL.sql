@@ -1,6 +1,6 @@
 USE [gespro_daw01]
 GO
--- Acceso: configurar el inicio de sesion por separado, sin guardar credenciales aqui.
+CREATE LOGIN gespro_daw01 WITH PASSWORD = 'flacido'
 GO
 CREATE USER gespro_daw01 FOR LOGIN gespro_daw01
 GO
