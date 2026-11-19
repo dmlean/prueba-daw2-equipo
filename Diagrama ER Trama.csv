@@ -1,0 +1,36 @@
+id,Nombre,Biblioteca de figuras,ID de página,Contenido por,Grupo,Origen de línea,Destino de la línea,Flecha de origen,Flecha de destino,Estado,Área de texto 1,Área de texto 2,Área de texto 3,Área de texto 4,Área de texto 5,Área de texto 6,Área de texto 7,Área de texto 8,Área de texto 9,Área de texto 10,Área de texto 11,Área de texto 12,Área de texto 13,Área de texto 14,Área de texto 15,Área de texto 16,Área de texto 17,Área de texto 18,Área de texto 19,Área de texto 20,Área de texto 21,Comentarios,Notas,ID de figura
+1,Documento,,,,,,,,,Borrador,Diagrama ER Trama,,,,,,,,,,,,,,,,,,,,,,,4abf00ed-a30a-403f-b068-7f458870ad58
+2,Página,,,,,,,,,,Página 1,,,,,,,,,,,,,,,,,,,,,,,0_0
+3,"Entidad (Campo, Tipo)",Relación entre entidades,2,,,,,,,,Proyectos,id_proyecto,PK,Nombre,varchar(255),,,,,,,,,,,,,,,,,,,S8uBSn-.10le
+4,"Entidad (Campo, Tipo)",Relación entre entidades,2,,,,,,,,Usuario,id,PK,nombre,varchar(50),apellido,varchar (50),email,varchar(150),contraseña,varchar(256),,,,,,,,,,,,,S8uBbzqSqWye
+5,Decisión,Figuras de diagrama de flujo/contenedores,2,,,,,,,,Tiene,,,,,,,,,,,,,,,,,,,,,,,TJvBjxYjO_AU
+6,"Entidad (Campo, Tipo)",Relación entre entidades,2,,,,,,,,Roles,id_rol,PK,nombre,varchar(255),,,,,,,,,,,,,,,,,,,Q1vBXAwEXZ_4
+7,"Entidad (Campo, Tipo)",Relación entre entidades,2,,,,,,,,Tarea,id_tarea,PK,nombre,varchar(50),descripcion,varchar(255),fecha_inicio,date,fecha_fin,date,id_proyecto,FK Proyecto,id_usuario_creador,FK Usuario,id_usuario_asignado,FK Usuario,id_tipo,FK Tipo,id_estado,FK Estado,,,s~BDaYE3LOcA
+8,"Entidad (Campo, Tipo)",Relación entre entidades,2,,,,,,,,Tipo,id_tipo,PK,nombre,varchar(50),,,,,,,,,,,,,,,,,,,C~BDHjy0J2Yn
+9,"Entidad (Campo, Tipo)",Relación entre entidades,2,,,,,,,,Estado,id_estado,PK,nombre,varchar(50),,,,,,,,,,,,,,,,,,,eaCDxf5s1rPG
+10,Decisión,Figuras de diagrama de flujo/contenedores,2,,,,,,,,Creador,,,,,,,,,,,,,,,,,,,,,,,ybCDdWqA7lAR
+11,Decisión,Figuras de diagrama de flujo/contenedores,2,,,,,,,,Asignados,,,,,,,,,,,,,,,,,,,,,,,​-cCDkrKh6JVe
+12,Decisión,Figuras de diagrama de flujo/contenedores,2,,,,,,,,Es,,,,,,,,,,,,,,,,,,,,,,,jfCD6SpbazCF
+13,Decisión,Figuras de diagrama de flujo/contenedores,2,,,,,,,,Se encuentra,,,,,,,,,,,,,,,,,,,,,,,6gCDd27_7ihK
+14,Decisión,Figuras de diagrama de flujo/contenedores,2,,,,,,,,Existe,,,,,,,,,,,,,,,,,,,,,,,SlCD2xoZ4b-a
+15,Texto,Estándar,2,,,,,,,,"Notas internas del equipo para Relación «Tiene»: 
+Crear tabla en php
+El rol corresponde a cada usuario dentro de cada proyecto",,,,,,,,,,,,,,,,,,,,,,,tpPH19VMuG3z
+16,Texto,Estándar,2,,,,,,,,"Nota interna del equipo: Esta relación en php es ""hasMany""",,,,,,,,,,,,,,,,,,,,,,,FpPH-mW.yT65
+17,Texto,Estándar,2,,,,,,,,1:M:N,,,,,,,,,,,,,,,,,,,,,,,LSvBaH8kXbW4
+18,Texto,Estándar,2,,,,,,,,Nota interna del equipo: id_usuario_asignado es opcional,,,,,,,,,,,,,,,,,,,,,,,l3vKEL.TLSVv
+19,Línea,,2,,,5,4,None,None,,1:N,,,,,,,,,,,,,,,,,,,,,,,S8uB2dEAeg02
+20,Línea,,2,,,5,3,None,None,,1:M,,,,,,,,,,,,,,,,,,,,,,,HUvBCd_xgVzY
+21,Línea,,2,,,5,6,None,None,,1:1,,,,,,,,,,,,,,,,,,,,,,,_9vBzGZ95uqg
+22,Línea,,2,,,4,10,None,None,,1:1,,,,,,,,,,,,,,,,,,,,,,,KaCDxeh~io2Y
+23,Línea,,2,,,7,10,None,None,,0:M,,,,,,,,,,,,,,,,,,,,,,,acCDwwO8tY4s
+24,Línea,,2,,,4,11,None,None,,0:1,,,,,,,,,,,,,,,,,,,,,,,bdCD5ckHJYvj
+25,Línea,,2,,,7,11,None,None,,0:M,,,,,,,,,,,,,,,,,,,,,,,ZdCDDmTMZo4P
+26,Línea,,2,,,7,12,None,None,,1:M,,,,,,,,,,,,,,,,,,,,,,,zfCDfwriUU_.
+27,Línea,,2,,,12,8,None,None,,1:1,,,,,,,,,,,,,,,,,,,,,,,TfCDzh~nJrW_
+28,Línea,,2,,,7,13,None,None,,1:M,,,,,,,,,,,,,,,,,,,,,,,hhCDRUiHyC2H
+29,Línea,,2,,,13,9,None,None,,1:1,,,,,,,,,,,,,,,,,,,,,,,IhCDGA-A.Unw
+30,Línea,,2,,,3,14,None,None,,1:1,,,,,,,,,,,,,,,,,,,,,,,KlCDCL9Rd8-R
+31,Línea,,2,,,14,7,None,None,,1:M,,,,,,,,,,,,,,,,,,,,,,,amCDBVw8PNLu
+32,Línea,,2,,,16,,Arrow,Arrow,,,,,,,,,,,,,,,,,,,,,,,,,5uvKcH_Vv3OD
+33,Línea,,2,,,18,7,None,BPMN Conditional,,,,,,,,,,,,,,,,,,,,,,,,,v4vKW83up6j9
