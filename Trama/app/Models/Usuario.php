@@ -14,3 +14,4 @@ class Usuario extends Authenticatable
     protected $table = 'usuarios';
     public $timestamps = false;
 }
+
