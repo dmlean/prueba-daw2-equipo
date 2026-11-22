@@ -13,6 +13,8 @@ class ProyectoController extends Controller
     public function index()
     {
         //
+        // $proyectos = Proyecto::all();
+        return view('layouts.main', compact('proyectos'));
     }
 
     /**
