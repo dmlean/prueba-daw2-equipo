@@ -112,45 +112,15 @@ h3 {
     padding-top: 17px;
 }
 
-#pantallaProyecto {
-    padding: 40px;
+.perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
 }
 
-.tablero {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
-    margin-top: 40px;
-}
-
-.columna {
-    border: 1px solid #17343B;
-    border-radius: 15px;
-    padding: 20px;
-    min-height: 400px;
-}
-
-.columna h3 {
-    margin-top: 0;
-}
-
-#crearTarea {
-    background-color: #17343B;
-    color: white;
-    border: none;
-    border-radius: 10px;
-    padding: 15px 25px;
-    cursor: pointer;
-}
-
-#pantallaProyecto a {
-    color: #17343B;
-}
-
-.tarjetaTarea {
+.panelPerfil {
+    border-radius: 12px;
     background-color: white;
-    border: 1px solid #17343B;
-    border-radius: 14px;
-    padding: 20px;
-    margin-bottom: 15px;
+    text-align: center;
 }
