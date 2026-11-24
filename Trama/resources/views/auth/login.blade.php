@@ -57,7 +57,7 @@
                 <label for="password" class="block mb-2.5 text-sm font-medium text-heading">Contraseña</label>
                 <input id="password" type="password" name="password" class="bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full px-3 py-2.5 shadow-xs placeholder:text-body" placeholder="•••••••••" required />
             </div>
-            <button type="submit" class="botonLogin text-white bg-brand box-border border border-transparent hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none w-full mb-3">Crear cuenta</button>
+            <button type="submit" class="botonLogin botonCrearLogin text-white bg-brand box-border border border-transparent hover:bg-brand-strong focus:ring-4 focus:ring-brand-medium shadow-xs font-medium leading-5 rounded-base text-sm px-4 py-2.5 focus:outline-none w-full mb-3">Crear cuenta</button>
             <div class="preguntaLogin text-sm font-medium text-body">Ya tienes cuenta? <a href="#" class="cambiarPanel text-fg-brand hover:underline">Iniciar sesión</a></div>
         </form>
     </div>

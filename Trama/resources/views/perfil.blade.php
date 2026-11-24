@@ -21,6 +21,7 @@
             </div> --}}
             <form action="{{ route('logout') }}">
                 <div class="mb-4">
+                    <button>Volver</button>
                     <button type="submit">Cerrar sesión</button>
                 </div>
             </form>

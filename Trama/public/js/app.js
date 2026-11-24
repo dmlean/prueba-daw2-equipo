@@ -15,4 +15,10 @@ document.addEventListener('DOMContentLoaded', function() {
             })
         })
     })
+
+    const botonCrearCuenta = document.querySelector('.botonCrearLogin');
+
+    botonCrearCuenta.addEventListener('click', function() {
+        alert('El usuario ha sido creado');
+    })
 })
