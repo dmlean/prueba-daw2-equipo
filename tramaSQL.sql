@@ -76,7 +76,7 @@ create table [dbo].[usuarios] (
 	[nombre] [varchar](50) not null,
 	[apellido] [varchar](50) not null,
 	[email] [varchar](150) not null,
-	[contraseña] [varchar](256) not null,
+	[contraseÃ±a] [varchar](256) not null,
 
 	CONSTRAINT [pk_usuarios] PRIMARY KEY CLUSTERED (
 		[id] ASC
