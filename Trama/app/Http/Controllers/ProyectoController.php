@@ -10,11 +10,20 @@ class ProyectoController extends Controller
     /**
      * Display a listing of the resource.
      */
-    public function index()
+    public function index(Request $request)
     {
         //
         // $proyectos = Proyecto::all();
-        return view('layouts.main', compact('proyectos'));
+
+        $query = Proyecto::query();
+
+        if($request->has('search')){
+            $query->where('nombre', 'like', '%' . $request->input('search') . '%');
+        }
+
+        $proyectos = $query->orderBy('nombre', 'asc')->get();
+
+        return view('layouts.main', compact('proyectos', 'request'));
     }
 
     /**
@@ -59,6 +68,10 @@ class ProyectoController extends Controller
     public function update(Request $request, Proyecto $proyecto)
     {
         //
+        $proyecto->nombre = $request->input('edit-nombre');
+        $proyecto->save();
+
+        return redirect()->route('proyecto.index');
     }
 
     /**

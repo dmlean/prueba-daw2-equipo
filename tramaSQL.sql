@@ -1,18 +1,18 @@
 USE [gespro_daw01]
 GO
---CREATE LOGIN gespro_daw01 WITH PASSWORD = 'flacido'
---GO
---CREATE USER gespro_daw01 FOR LOGIN gespro_daw01
---GO
---ALTER ROLE db_owner ADD MEMBER gespro_daw01
---GO
+CREATE LOGIN gespro_daw01 WITH PASSWORD = 'flacido'
+GO
+CREATE USER gespro_daw01 FOR LOGIN gespro_daw01
+GO
+ALTER ROLE db_owner ADD MEMBER gespro_daw01
+GO
 
 
 SET ANSI_NULLS ON
 GO
 SET QUOTED_IDENTIFIER ON
 GO
-CREATE TABLE [dbo].[proyecto] (
+CREATE TABLE [dbo].[proyectos] (
 	[id] [int] IDENTITY(1,1) not null,
 	[nombre] [varchar] (50) not null,
 	CONSTRAINT [pk_proyectos] PRIMARY KEY CLUSTERED (
@@ -26,7 +26,7 @@ set ansi_nulls on
 go
 set quoted_identifier on
 go
-create table [dbo].[rol] (
+create table [dbo].[roles] (
 	[id] [int] identity(1,1) not null,
 	[nombre] [varchar](50) not null,
 	CONSTRAINT [pk_roles] PRIMARY KEY CLUSTERED (
@@ -41,7 +41,7 @@ go
 set quoted_identifier on
 go
 
-CREATE TABLE [dbo].[tipo] (
+CREATE TABLE [dbo].[tipos] (
 	[id] [int] identity (1,1) not null,
 	[nombre] [varchar] (50) not null,
 	CONSTRAINT [pk_tipo] PRIMARY KEY CLUSTERED (
@@ -56,7 +56,7 @@ go
 set quoted_identifier on
 go
 
-CREATE TABLE [dbo].[estado] (
+CREATE TABLE [dbo].[estados] (
 	[id] [int] identity (1,1) not null,
 	[nombre] [varchar] (50) not null,
 	CONSTRAINT [pk_estados] PRIMARY KEY CLUSTERED (
@@ -75,7 +75,7 @@ create table [dbo].[usuarios] (
 	[id] [int] identity(1,1) not null,
 	[nombre] [varchar](50) not null,
 	[apellido] [varchar](50) not null,
-	[nivel] [varchar](150) not null,
+	[email] [varchar](150) not null,
 	[contraseña] [varchar](256) not null,
 
 	CONSTRAINT [pk_usuarios] PRIMARY KEY CLUSTERED (
@@ -92,11 +92,11 @@ go
 
 CREATE TABLE [dbo].[tiene] (
 	[id_usuario] [int] not null,
-	[id_rol] [int] not null,
 	[id_proyecto] [int] not null,
+	[id_rol] [int] not null,
 
 	CONSTRAINT [pk_tiene] PRIMARY KEY CLUSTERED (
-		[id] ASC
+		[id_usuario], [id_proyecto] ASC
 )WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON, OPTIMIZE_FOR_SEQUENTIAL_KEY = OFF) ON [PRIMARY]
 ) ON [PRIMARY]
 GO
@@ -105,7 +105,7 @@ GO
 --__________________________________________________
 
 
-CREATE TABLE [dbo].[tarea] (
+CREATE TABLE [dbo].[tareas] (
 	[id] [int] identity (1,1) not null,
 	[nombre] [varchar] (50) not null,
 	[descripcion] [varchar] (255) null,
@@ -137,28 +137,28 @@ references [dbo].[roles] ([id])
 go
 alter table [dbo].[tiene] check constraint[fk_tiene_roles]
 go
-alter table [dbo].[tarea] with check add constraint [fk_tarea_proyectos] foreign key ([id_proyecto])
+alter table [dbo].[tareas] with check add constraint [fk_tareas_proyectos] foreign key ([id_proyecto])
 references [dbo].[proyectos] ([id])
 go
-alter table [dbo].[tarea] check constraint[fk_tarea_proyectos]
+alter table [dbo].[tareas] check constraint[fk_tareas_proyectos]
 go
-alter table [dbo].[tarea] with check add constraint [fk_tarea_usuario_creador] foreign key ([id_usuario_creador])
+alter table [dbo].[tareas] with check add constraint [fk_tareas_usuario_creador] foreign key ([id_usuario_creador])
 references [dbo].[usuarios] ([id])
 go
-alter table [dbo].[tarea] check constraint[fk_tarea_usuario_creador]
+alter table [dbo].[tareas] check constraint[fk_tareas_usuario_creador]
 go
-alter table [dbo].[tarea] with check add constraint [fk_tarea_usuario_asignado] foreign key ([id_usuario_asignado])
+alter table [dbo].[tareas] with check add constraint [fk_tareas_usuario_asignado] foreign key ([id_usuario_asignado])
 references [dbo].[usuarios] ([id])
 go
-alter table [dbo].[tarea] check constraint[fk_tarea_usuario_asignado]
+alter table [dbo].[tareas] check constraint[fk_tareas_usuario_asignado]
 go
-alter table [dbo].[tarea] with check add constraint [fk_tarea_tipos] foreign key ([id_tipo])
+alter table [dbo].[tareas] with check add constraint [fk_tareas_tipos] foreign key ([id_tipo])
 references [dbo].[tipos] ([id])
 go
-alter table [dbo].[tarea] check constraint[fk_tarea_tipos]
+alter table [dbo].[tareas] check constraint[fk_tareas_tipos]
 go
-alter table [dbo].[tarea] with check add constraint [fk_tarea_estados] foreign key ([id_estado])
+alter table [dbo].[tareas] with check add constraint [fk_tareas_estados] foreign key ([id_estado])
 references [dbo].[estados] ([id])
 go
-alter table [dbo].[tarea] check constraint[fk_tarea_estados]
+alter table [dbo].[tareas] check constraint[fk_tareas_estados]
 go
