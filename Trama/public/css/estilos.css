@@ -111,3 +111,16 @@ h3 {
 .listaProyectos {
     padding-top: 17px;
 }
+
+.perfil {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+.panelPerfil {
+    border-radius: 12px;
+    background-color: white;
+    text-align: center;
+}
