@@ -7,9 +7,13 @@ use Illuminate\Support\Facades\Route;
 
 //Meter un middleware que te rediriga al login
 Route::get('/', function () {
-         // return view('welcome');
          return view('layouts.main');
     });
+
+Route::get('/tablero', function () {
+    return view('layouts.tablero');
+})->name('tablero');
+
 
 Route::get('/login', [LoginController::class, 'showLoginForm'])->name('login');
 Route::post('/login', [LoginController::class, 'login'])->name('login.submit');

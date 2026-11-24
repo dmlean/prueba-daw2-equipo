@@ -170,3 +170,43 @@ function eliminarProyecto(id) {
 // Cargar proyectos al iniciar
 
 mostrarProyectos();
+
+function abrirProyecto(id) {
+    window.location.href = "/tablero?id=" + id;
+}
+
+// Mostrar los proyectos en la pantalla principal
+
+if (document.getElementById("listaProyectos")) {
+    mostrarProyectos();
+}
+
+// Mostrar el nombre del proyecto seleccionado
+
+if (document.getElementById("nombreProyecto")) {
+
+    const parametros = new URLSearchParams(window.location.search);
+
+    const id = Number(parametros.get("id"));
+
+    const proyecto = proyectos.find(p => p.id === id);
+
+    if (proyecto) {
+        document.getElementById("nombreProyecto").textContent = proyecto.nombre;
+    }
+}
+
+function crearTarea() {
+
+    let nombre = prompt("Escribe el nombre de la tarea: ");
+
+    if (nombre !== "") {
+
+        const tarea = document.createElement("div");
+
+        tarea.className = "tarjetaTarea";
+        tarea.textContent = nombre;
+
+        document.getElementById("porHacer").appendChild(tarea);
+    }
+}
