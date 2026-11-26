@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Route;
 
 //Meter un middleware que te rediriga al login
 Route::get('/', function () {
-         return view('layouts.main');
+         return view('layouts.index');
     });
 
 Route::get('/tablero', function () {
