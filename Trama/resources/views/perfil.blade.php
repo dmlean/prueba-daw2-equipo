@@ -13,18 +13,10 @@
             <div class="mb-4">
                 <h2>Email: {{ Auth::user()->email }}</h2>
             </div>
-            {{-- <div>
-                <label for="password" class="block mb-2.5 text-sm font-medium text-heading">Your password</label>
-                <input type="password" id="password"
-                    class="bg-neutral-secondary-medium border border-default-medium text-heading text-sm rounded-base focus:ring-brand focus:border-brand block w-full px-3 py-2.5 shadow-xs placeholder:text-body"
-                    placeholder="•••••••••" required />
-            </div> --}}
-            <form action="{{ route('logout') }}">
-                <div class="mb-4">
-                    <button>Volver</button>
-                    <button type="submit">Cerrar sesión</button>
-                </div>
-            </form>
+            <div class="mb-4">
+                <a href="{{ route('/') }}"><button>Volver</button></a>
+                <a href="{{ route('logout') }}"><button>Cerrar sesión</button></a>
+            </div>
 
         </div>
     </div>
