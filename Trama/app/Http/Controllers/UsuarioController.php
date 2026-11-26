@@ -38,7 +38,7 @@ class UsuarioController extends Controller
         $usuario->contrasenya = bcrypt($request->input('password'));
 
         $usuario->save();
-        return redirect()->route('usuario.index');
+        return redirect()->route('login');
     }
 
     /**
