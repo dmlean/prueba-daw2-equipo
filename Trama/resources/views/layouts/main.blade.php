@@ -25,45 +25,7 @@
 
     @section('content')
 
-        <main>
-
-            <p class="titulo">ESPACIO DE TRABAJO</p>
-
-            <p class="proyectos">Tus Proyectos</p>
-
-            <p>Elige un proyecto y sigue con tu trabajo.</p>
-
-            <button id="crearProyecto" onclick="crearProyecto()">
-                + Crear un Proyecto
-            </button>
-
-            <div class="clases" id="listaProyectos">
-
-                <div class="tarjeta">
-                    <h3>Portal del Taller</h3>
-                    <p>Diseño y contenidos del portal compartido.</p>
-                    <hr>
-                    <div class="acciones">
-                        <button class="abrir">Abrir proyecto</button>
-                        <p class="borrar">Eliminar Proyecto</p>
-                    </div>
-                </div>
-
-                <div class="tarjeta">
-                    <h3>Guía del Barrio</h3>
-                    <p>Un punto de encuentro para ordenar los contenidos del barrio.</p>
-                    <hr>
-                    <div class="acciones">
-                        <button class="abrir">Abrir proyecto</button>
-                        <p class="borrar">Eliminar proyecto</p>
-                    </div>
-                </div>
-
-            </div>
-
-        </main>
-
-    @show
+        @yield('content')
 
     <script src="{{ asset('js/index.js') }}"></script>
 

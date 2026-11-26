@@ -2,7 +2,8 @@
 // Recuperar proyectos guardados
 
 let proyectos = JSON.parse(localStorage.getItem("proyectosTrama"));
-const boton = document.getElementById('crearProyecto')
+const boton = document.getElementById('crearProyecto');
+let tareas = JSON.parse(localStorage.getItem("tareasTrama")) || [];
 
 // Crear proyectos iniciales
 
@@ -118,9 +119,6 @@ function crearProyecto() {
 
 }
 
-
-// Abrir proyecto
-
 function abrirProyecto(id) {
 
     const proyecto = proyectos.find(function(p) {
@@ -209,4 +207,8 @@ function crearTarea() {
 
         document.getElementById("porHacer").appendChild(tarea);
     }
+}
+
+function guardarTarea() {
+
 }
